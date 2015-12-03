@@ -17,28 +17,28 @@
 								<div class="menu-services-container">
 									<ul id="menu-services" class="menu">
 										<li id="menu-item-3526" class="menu-item menu-item-3526">
-											<a href="features_pages_service.html">Design</a>
+											<a href="features_pages_service.php">Design</a>
 										</li>
 										<li class="menu-item">
-											<a href="features_pages_service.html">Manufacture</a>
+											<a href="features_pages_service.php">Manufacture</a>
 										</li>
 										<li class="menu-item">
-											<a href="features_pages_service.html">Installation</a>
+											<a href="features_pages_service.php">Installation</a>
 										</li>
 										<li class="menu-item">
-											<a href="features_pages_service.html">Digital printings</a>
+											<a href="features_pages_service.php">Digital printings</a>
 										</li>
 										<li class="menu-item">
-											<a href="features_pages_service.html">Shop Fitting Renovation</a>
+											<a href="features_pages_service.php">Shop Fitting Renovation</a>
 										</li>
 										<li class="menu-item">
-											<a href="features_pages_service.html">CNC cutting</a>
+											<a href="features_pages_service.php">CNC cutting</a>
 										</li>
 										<li class="menu-item">
-											<a href="features_pages_service.html">Brand Design & Management</a>
+											<a href="features_pages_service.php">Brand Design & Management</a>
 										</li>
 										<li class="menu-item">
-											<a href="features_pages_service.html">Web Design</a>
+											<a href="features_pages_service.php">Web Design</a>
 										</li>
 										
 									</ul>
@@ -49,7 +49,7 @@
 								<div class="menu-pages-container">
 									<ul id="menu-pages" class="menu">
 										<li class="menu-item">
-											<a href="index.html">Home</a>
+											<a href="index.php">Home</a>
 										</li>
 										<li class="menu-item">
 											<a href="features_pages_about_us.php">About Us</a>
@@ -62,13 +62,8 @@
 										</li>
 										<li class="menu-item">
 											<a href="features_pages_faq.html">FAQ</a>
-										</li>
-										<li class="menu-item">
-											<a href="pricing.html">Pricing</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_about_us.html">Team</a>
-										</li>
+										</li>								
+									
 										<li class="menu-item">
 											<a href="contacts.php">Contacts</a>
 										</li>

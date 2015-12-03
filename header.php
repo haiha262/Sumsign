@@ -29,51 +29,6 @@
 									<li class="menu-item menu-item-has-children">
 										<a href="index.php">Home</a>										
 									</li>
-									<li class="menu-item menu-item-has-children current-menu-ancestor">
-										<a title="Tools and Pages" href="#">
-											<span class="menu_icon icon-params"></span>Features
-										</a>
-										<ul class="sub-menu">
-											<li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
-												<a href="#">Pages</a>
-												<ul class="sub-menu">
-													<li class="menu-item current-menu-item">
-														<a href="features_pages_about_us.php">About Us</a>
-													</li>
-													<li class="menu-item">
-														<a href="features_pages_service.html">Service / Department Page</a>
-													</li>
-													<li class="menu-item">
-														<a href="features_pages_handyman.html">Handyman Personal Page</a>
-													</li>
-													<li class="menu-item">
-														<a href="features_pages_protected_page.html">Protected Page (hint: 123)</a>
-													</li>
-													<li class="menu-item">
-														<a href="features_pages_under_construction.html">Under Construction</a>
-													</li>
-													<li class="menu-item">
-														<a href="features_pages_faq.html">FAQ</a>
-													</li>
-													<li class="menu-item">
-														<a href="features_pages_page_404.html">Page 404</a>
-													</li>
-												</ul>
-											</li>
-											<li class="menu-item">
-												<a href="features_shop.html">Shop</a>
-											</li>
-											<li class="menu-item menu-item-object-post">
-												<a href="features_shortcodes.html">Shortcodes</a>
-											</li>
-											<li class="menu-item">
-												<a href="features_typography.html">Typography</a>
-											</li>
-											<li class="menu-item">
-												<a target="_blank" href="doc/index.html">Docs</a>
-											</li>
-										</ul>
-									</li>
 									<li class="menu-item menu-item-has-children columns custom_view_item">
 										<a href="#">Services</a>
 										<ul class="menu-panel columns">
@@ -83,79 +38,46 @@
 														<a href="#">Service #1</a>
 														<ul class="sub-menu">
 															<li class="menu-item">
-																<a href="features_pages_service.html">Maintenance</a>
+																<a href="features_pages_service.php">Wide format print</a>
 															</li>
 															<li class="menu-item">
-																<a href="features_pages_service.html">Wiring</a>
+																<a href="features_pages_service.php">Vinyl stickers</a>
 															</li>
 															<li class="menu-item">
-																<a href="features_pages_service.html">Tiling</a>
-															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Audio/Visual</a>
-															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Electrical</a>
-															</li>
+																<a href="features_pages_service.php">Vehicle wrap</a>
+															</li>														
 														</ul>
 													</li>
 													<li class="menu-item menu-item-has-children">
 														<a href="#">Service #2</a>
 														<ul class="sub-menu">
 															<li class="menu-item">
-																<a href="features_pages_service.html">Plumbing</a>
+																<a href="features_pages_service.php">All types of signs</a>
 															</li>
 															<li class="menu-item">
-																<a href="features_pages_service.html">Air sealing</a>
+																<a href="features_pages_service.php">Light boxes</a>
 															</li>
 															<li class="menu-item">
-																<a href="features_pages_service.html">Fix-it school</a>
-															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Remodelling Together</a>
-															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Financial Counseling</a>
-															</li>
+																<a href="features_pages_service.php">3D cutting services</a>
+															</li>															
 														</ul>
 													</li>
 													<li class="menu-item menu-item-has-children">
 														<a href="#">Service #3</a>
 														<ul class="sub-menu">
 															<li class="menu-item">
-																<a href="features_pages_service.html">Home access ramps</a>
+																<a href="features_pages_service.php">Design & decoration</a>
 															</li>
 															<li class="menu-item">
-																<a href="features_pages_service.html">Repair team</a>
+																<a href="features_pages_service.php">Shop fitting</a>
 															</li>
 															<li class="menu-item">
-																<a href="features_pages_service.html">Project Design</a>
+																<a href="features_pages_service.php">Shop renovation package</a>
 															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Cabinet installation</a>
-															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Ceramic, Glass &#038; Stone Tile</a>
-															</li>
+															
 														</ul>
 													</li>
-													<li class="menu-item menu-item-has-children">
-														<a href="#">Service #4</a>
-														<ul class="sub-menu">
-															<li class="menu-item">
-																<a href="features_pages_service.html">Fixture Installation</a>
-															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Drywall service</a>
-															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Attics</a>
-															</li>
-															<li class="menu-item">
-																<a href="features_pages_service.html">Carpentry</a>
-															</li>
-														</ul>
-													</li>
+													
 												</ul>
 											</li>
 										</ul>
@@ -179,40 +101,6 @@
 									</li>
 									<li class="menu-item">
 										<a href="pricing.html">Pricing</a>
-									</li>
-									<li class="menu-item menu-item-has-children">
-										<a href="#">Blog</a>
-										<ul class="sub-menu">
-											<li class="menu-item">
-												<a href="blog_with_sidebar.html">With Sidebar</a>
-											</li>
-											<li class="menu-item">
-												<a href="blog_without_sidebar.html">Without Sidebar</a>
-											</li>
-											<li class="menu-item menu-item-has-children">
-												<a href="#">Single Post</a>
-												<ul class="sub-menu">
-													<li class="menu-item">
-														<a href="single_post_with_sidebar.html">With Sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="single_post_without_sidebar.html">Without Sidebar</a>
-													</li>
-													<li class="menu-item">
-														<a href="single_post_without_sidebar.html">Image Post</a>
-													</li>
-													<li class="menu-item">
-														<a href="single_post_slider_post.html">Slider Post</a>
-													</li>
-													<li class="menu-item">
-														<a href="single_post_video_post.html">Video Post</a>
-													</li>
-													<li class="menu-item">
-														<a href="single_post_audio_post.html">Audio Post</a>
-													</li>
-												</ul>
-											</li>
-										</ul>
 									</li>
 									<li class="menu-item">
 										<a href="contacts.php">Contacts</a>

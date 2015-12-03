@@ -25,7 +25,7 @@
 </head>
 <body class="page fullscreen top_panel_hide usermenu_show toc_show">
 
-	<a id="toc_home" class="sc_anchor" title="Home" data-description="Go to Homepage" data-icon="icon-home" data-url="index.html" data-separator="yes"></a>
+	<a id="toc_home" class="sc_anchor" title="Home" data-description="Go to Homepage" data-icon="icon-home" data-url="index.php" data-separator="yes"></a>
 	<a id="toc_top" class="sc_anchor" title="TO TOP" data-description="Scroll to TOP" data-icon="icon-up" data-url="" data-separator="yes"></a>
 	
 	<!--[if lt IE 9]>
