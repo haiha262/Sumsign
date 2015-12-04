@@ -138,7 +138,7 @@
 													<div class="sc_section sc_aligncenter">
 														<div class="columnsWrap sc_columns sc_columns_count_3 margin_bottom_big" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.html">
+																<a href="features_pages_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-brush sc_title_bg sc_bg_animated">
@@ -156,7 +156,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.html">
+																<a href="features_pages_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-wired sc_title_bg sc_bg_animated">
@@ -174,7 +174,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_3 odd">
-																<a href="features_pages_service.html">
+																<a href="features_pages_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-tools sc_title_bg sc_bg_animated">
@@ -194,7 +194,7 @@
 														</div>
 														<div class="columnsWrap sc_columns sc_columns_count_3" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.html">
+																<a href="features_pages_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-print sc_title_bg sc_bg_animated">
@@ -212,7 +212,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.html">
+																<a href="features_pages_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-electric38 sc_title_bg sc_bg_animated">
@@ -230,7 +230,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_3 odd">
-																<a href="features_pages_service.html">
+																<a href="features_pages_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-scissor8 sc_title_bg sc_bg_animated">
@@ -261,7 +261,7 @@ Materials we can cut:
 														</div>
 													<div class="columnsWrap sc_columns sc_columns_count_3" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.html">
+																<a href="features_pages_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-widescreen sc_title_bg sc_bg_animated">
@@ -282,7 +282,7 @@ Materials we can cut:
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.html">
+																<a href="features_pages_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-file-code sc_title_bg sc_bg_animated">
@@ -835,9 +835,11 @@ Materials we can cut:
 			</div>
 
 			<div class="footerContentWrap">
-				<div id="sc_googlemap_1969752005" class="sc_googlemap sc_googlemap_style_1" data-description="263 Barkly Street Footscray, Victoria 3011" data-address="263 Barkly Street Footscray, Victoria 3011" data-latlng="" data-zoom="14" data-style="style4" data-point=""></div>
+				<?php
+				require_once('google_map.php');
 
-				<?php require_once('footer.php'); ?>
+				require_once('footer.php');
+				?>
 			</div> 
 		</div> 
 	</div> 

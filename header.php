@@ -4,10 +4,10 @@
 					<div class="mainmenu_area">
 						<div class="main">
 							<div class="logo logo_left">
-								<a href="index.html">
-									<img src="images/logo/81x74.png" class="logo_main" alt="">
-									<img src="images/logo/68x62.png" class="logo_fixed" alt="">
-									<span class="logo_slogan">House Repair</span>
+								<a href="index.php">
+									<img src="images/logo/logo_81x73.png" class="logo_main" alt="">
+									<img src="images/logo/logo_81x73.png" class="logo_fixed" alt="">
+									<span class="logo_slogan">Sumsign</span>
 								</a>
 							</div>
 							<div class="search" title="Open/close search form">

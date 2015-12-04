@@ -4,7 +4,7 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="format-detection" content="telephone=no">
-	<title>M2 | House Repair Services</title>
+	<title>Sumsign | Services</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
 	<link rel='stylesheet' id='fontello-css' href='css/fontello/css/fontello.css' type='text/css' media='all'/>
 	<link rel='stylesheet' id='animation-css' href='css/fontello/css/animation.css' type='text/css' media='all'/>
@@ -376,91 +376,8 @@
 				 
 				</div>  
 			</div>
-
-			<div class="footerContentWrap">
-				<footer class="footerWrap footerStyleLight contactFooterWrap">
-					<div class="main contactFooter">
-						<section>
-							<div class="logo">
-								<a href="index.html">
-									<img src="images/81x73.png" alt="">
-								</a>
-							</div>
-							<div class="contactAddress">
-								<address class="addressRight">
-									Phone: 1.800.123.4567<br>
-									Fax: 1.800.123.4566 
-								</address>
-								<address class="addressLeft">
-									1234, Some Str.<br>
-									San Francisco, CA 94102, US 
-								</address>
-							</div>
-							<div class="contactShare">
-								<ul>
-									<li>
-										<a class="social_icons icon-facebook" target="_blank" href="http://facebook.com"></a>
-									</li>
-									<li>
-										<a class="social_icons icon-tumblr" target="_blank" href="http://twitter.com"></a>
-									</li>
-									<li>
-										<a class="social_icons icon-pinterest" target="_blank" href="http://pinterest.com"></a>
-									</li>
-									<li>
-										<a class="social_icons icon-dribbble" target="_blank" href="http://dribbble.com"></a>
-									</li>
-									<li>
-										<a class="social_icons icon-rss" target="_blank" href="#"></a>
-									</li>
-									<li>
-										<a class="social_icons icon-gplus" target="_blank" href="http://gplus.com"></a>
-									</li>
-								</ul>
-							</div>
-						</section>
-					</div>
-				</footer>
-				<div id="sc_googlemap_1969752005" class="sc_googlemap sc_googlemap_style_1" data-description="San Francisco, CA 94102, US" data-address="San Francisco, CA 94102, US" data-latlng="" data-zoom="13" data-style="style4" data-point=""></div>
-				<div class="copyWrap">
-					<div class="copy main">
-						<div class="copyright">
-							<a href="#">Axiom</a>&copy; 2015 All Rights Reserved
-							<a href="#">Terms of Use</a>
-							and <a href="#">Privacy Policy</a>
-						</div>
-						<div class="copy_socials socPage">
-							<ul>
-								<li>
-									<a class="social_icons icon-facebook" target="_blank" href="http://facebook.com">
-									</a>
-								</li>
-								<li>
-									<a class="social_icons icon-tumblr" target="_blank" href="http://twitter.com">
-									</a>
-								</li>
-								<li>
-									<a class="social_icons icon-pinterest" target="_blank" href="http://pinterest.com">
-									</a>
-								</li>
-								<li>
-									<a class="social_icons icon-dribbble" target="_blank" href="http://dribbble.com">
-									</a>
-								</li>
-								<li>
-									<a class="social_icons icon-rss" target="_blank" href="#">
-									</a>
-								</li>
-								<li>
-									<a class="social_icons icon-gplus" target="_blank" href="http://gplus.com">
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> 
+<?php require_once('footer_light.php'); ?>
+			</div> 
 	</div> 
 
 	<div id="preloader" class="preloader">
