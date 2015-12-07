@@ -55,7 +55,7 @@
 											<a href="features_pages_about_us.php">About Us</a>
 										</li>
 										<li class="menu-item">
-											<a href="#">Portfolio</a>
+											<a href="features_product_category.php">Portfolio</a>
 										</li>
 										<li class="menu-item">
 											<a href="appointment.html">Make an Appointment</a>
