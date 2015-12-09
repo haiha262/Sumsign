@@ -2090,6 +2090,7 @@ function userSubmitForm(form, url, nonce){
 	"use strict";
 	var error = false;
 	var form_custom = form.data('formtype');
+	 var formFields = form.serializeArray();
 	if ( form_custom == 'contact_1' ) {
 		error = formValidate(form, {
 			error_message_show: true,
@@ -2192,19 +2193,30 @@ function userSubmitForm(form, url, nonce){
 		});
 	}
 	if (!error && url!='#') {
-	/*	Axiom_validateForm = form;
-		var data = {
-			action: "send_contact_form",
-			nonce: nonce,
-			type: form_custom ? 'custom' : 'contact',
-			data: form.serialize()
-		};
-		jQuery.post(url, data, userSubmitFormResponse, "text");*/
+	//Axiom_validateForm = form;
+	//	var data = {
+	//		action: "send_contact_form",
+	//		nonce: nonce,
+	//		type: form_custom ? 'custom' : 'contact',
+	//		data: form.serialize()
+	//	};
+	//	jQuery.post(url, data, userSubmitFormResponse, "text");
+	 var request = form.serialize();
+        var ajax = jQuery.post(url, request )
+            .done(function( data ) {
+                form.find('.result').removeClass('sc_infobox_style_error');
+                form.find('.result').removeClass('error_email_mask');
+                form.find('.result').addClass('sc_infobox_style_success').html("").fadeIn().delay(3000).fadeOut();
+				alert(data);
+                //jQuery(form).find('div.result').attr('disabled', false).append('<p>'+data+'</p>');
+                //jQuery('form.contact_1')[0].reset();
+        })
+          
 	}
 }
 	
 function userSubmitFormResponse(response) {
-/*	"use strict";
+	//"use strict";
 	var rez = JSON.parse(response);
 	var result = Axiom_validateForm.find(".result")
 		.toggleClass("sc_infobox_style_error", false)
@@ -2218,7 +2230,7 @@ function userSubmitFormResponse(response) {
 	} else {
 		result.addClass("sc_infobox_style_error").html(Axiom_SEND_ERROR + ' ' + rez.error);
 	}
-	result.fadeIn();*/
+	result.fadeIn();
 }
 
 // Popup messages

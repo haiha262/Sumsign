@@ -26,9 +26,9 @@ $server_not_configured = 'Sorry, mail server not configured';
 //Contact Form Processing//
 ///////////////////////////
 $errors = array();
-if(isset($_POST['message']) and isset($_POST['name'])) {
-	if(!empty($_POST['name']))
-		$sender_name  = stripslashes(strip_tags(trim($_POST['name'])));
+if(isset($_POST['message']) and isset($_POST['username'])) {
+	if(!empty($_POST['username']))
+		$sender_name  = stripslashes(strip_tags(trim($_POST['username'])));
 	
 	if(!empty($_POST['message']))
 		$message      = stripslashes(strip_tags(trim($_POST['message'])));
@@ -39,7 +39,8 @@ if(isset($_POST['message']) and isset($_POST['name'])) {
 	if(!empty($_POST['subject']))
 		$subject      = stripslashes(strip_tags(trim($_POST['subject'])));
 
-
+	if(!empty($_POST['phone']))
+		$phone      = stripslashes(strip_tags(trim($_POST['phone'])));
 	//Message if no sender name was specified
 	if(empty($sender_name)) {
 		$errors[] = $name_not_specified;
@@ -59,8 +60,8 @@ if(isset($_POST['message']) and isset($_POST['name'])) {
 	$message = "	Name: $sender_name 
 
 	E-mail: $sender_email 
-
-	Message: $message
+	Phone : $phone 	
+	Message: $message  
 
 	";
 
