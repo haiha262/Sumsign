@@ -4,6 +4,7 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="format-detection" content="telephone=no">
+	<meta name="google-site-verification" content="KdJUYJ2nuTj1mTBIrnKqlh-5phbfzzGeKruuDvCgeUw" />
 	<title>SUMSIGNS | Advertising Marketing Communication</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
 	<link rel='stylesheet' id='rs-plugin-settings-css' href='js/vendor/rs-plugin/css/settings.css' type='text/css' media='all'/>
@@ -138,7 +139,7 @@
 													<div class="sc_section sc_aligncenter">
 														<div class="columnsWrap sc_columns sc_columns_count_3 margin_bottom_big" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php">
+																<a href="features_pages_service.php?productId=1">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-brush sc_title_bg sc_bg_animated">
@@ -156,7 +157,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.php">
+																<a href="features_pages_service.php?productId=2">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-wired sc_title_bg sc_bg_animated">
@@ -174,7 +175,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_3 odd">
-																<a href="features_pages_service.php">
+																<a href="features_pages_service.php?productId=3">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-tools sc_title_bg sc_bg_animated">
@@ -194,7 +195,7 @@
 														</div>
 														<div class="columnsWrap sc_columns sc_columns_count_3" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php">
+																<a href="features_pages_service.php?productId=4">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-print sc_title_bg sc_bg_animated">
@@ -212,7 +213,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.php">
+																<a href="features_pages_service.php?productId=5">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-electric38 sc_title_bg sc_bg_animated">
@@ -230,7 +231,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_3 odd">
-																<a href="features_pages_service.php">
+																<a href="features_pages_service.php?productId=6">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-scissor8 sc_title_bg sc_bg_animated">
@@ -500,7 +501,7 @@ Materials we can cut:
 															</section>
 														</div>
 														<div class="sc_button sc_button_style_global sc_button_size_medium squareButton global medium">
-															<a href="#" class="">VIEW MORE</a>
+															<a href="features_product_category.php" class="">VIEW MORE</a>
 														</div>
 													</div>
 												</div>
@@ -511,6 +512,7 @@ Materials we can cut:
 									<div class="vc_row wpb_row vc_row-fluid">
 										<div class="wpb_column vc_column_container vc_col-sm-12">
 											<div class="wpb_wrapper">
+												<a id="toc_quote" class="sc_anchor" title="" data-description="Free Quote" data-icon="icon-file-powerpoint" data-url="#toc_quote" data-separator="yes"></a>
 												<div class="sc_section grey_section">
 													<div class="sc_content main" data-animation="animated fadeInUp">
 														<h3 class="sc_undertitle sc_aligncenter sc_title_regular">REQUEST FREE QUOTE</h3>
@@ -529,7 +531,7 @@ Materials we can cut:
 																		<textarea id="sc_contact_form_message" class="textAreaSize" name="message" placeholder="Message"></textarea>
 																		<div class="sc_contact_form_button">
 																			<div class="sc_button sc_button_style_dark sc_button_size_huge squareButton dark huge">
-																				<a href="#" class="sc_contact_form_submit">Submit</a><!--// TODO add php here-->
+																				<a href="#" onclick=""$(this).closest('form').submit()" class="sc_contact_form_submit">Submit</a>																			
 																			</div>
 																		</div>
 																	</div>
@@ -624,7 +626,7 @@ Materials we can cut:
 
 			<div class="footerContentWrap">
 				<?php
-				require_once('google_map.php');
+				//require_once('google_map.php');
 
 				require_once('footer.php');
 				?>

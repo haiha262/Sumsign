@@ -37,11 +37,9 @@
 					<div class="speedBar">
 						<a class="home" href="index.html">Home</a>
 						<span class="breadcrumbs_delimiter"> / </span>
-						<a class="all" href="#">All Posts</a>
-						<span class="breadcrumbs_delimiter"> / </span>
-						<span class="current">Service / Department Page</span>
+						<span class="current">Service / Service Name</span>
 					</div>
-					<h3 class="pageTitle h3">Service / Department Page</h3>
+					<h3 class="pageTitle h3">Service / Service Name</h3>
 				</div>
 			</div>
 
@@ -56,17 +54,18 @@
 										<div class="wpb_column vc_column_container vc_col-sm-12">
 											<div class="wpb_wrapper">
 												<div class="sc_content main">
-													<h1 class="sc_title sc_aligncenter sc_title_regular">Department Page</h1>
+													<h1 class="sc_title sc_aligncenter sc_title_regular" id="service_title">Service Name</h1>
 													<div class="sc_subsection bg_tint_none sc_aligncenter margin_bottom_small">
 														<div class="wpb_text_column wpb_content_element ">
-															<div class="wpb_wrapper">
-																<p>It&#8217;s our department&#8217;s page template where you can place information about team of specialists, services provided,<br/>
+															<div class="wpb_wrapper" id="service_desc">
+																<p> Containt description
+																	It&#8217;s our department&#8217;s page template where you can place information about team of specialists, services provided,<br/>
 																certificates and work schedule etc.</p>
 															</div>
 														</div>
 													</div>
 													<div class="sc_team no_padding">
-														<div class="sc_columns columnsWrap">
+														<div class="sc_columns columnsWrap" id="staff_content">
 															<div class="columns1_3" data-animation="animated fadeInUp">
 																<div class="sc_team_item sc_team_item_1 odd first">
 																	<div class="sc_team_item_avatar">

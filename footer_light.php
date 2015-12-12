@@ -22,7 +22,7 @@
 				</footer>
 				
 				<?php
-				require_once('google_map.php');
+				//require_once('google_map.php');
 				require_once('social_link.php');
 				?>
 			</div>
