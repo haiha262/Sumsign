@@ -394,6 +394,7 @@
 	<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>
 	<script type='text/javascript' src='js/custom/_googlemap_init.js'></script>
 	
+	<script type='text/javascript' src='js/custom/load_page_service.js'></script>
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
 
 </body>
