@@ -1,6 +1,14 @@
 <?php
 require_once('connect.php');
-$sql = "SELECT `id`,`prodName` FROM `products`";
+$sql = "SELECT * FROM `products`";
+$id = -1;
+if ($_SERVER['REQUEST_METHOD'] == "POST")
+{
+  if(isset($_POST["productId"]))
+  {
+    $id = $_POST["productId"];
+  }
+}
 if($result = mysqli_query($conn,$sql))
 {
   $countRow = mysqli_num_rows($result);
@@ -46,6 +54,15 @@ if($result = mysqli_query($conn,$sql))
       $strHTML_aside .= '<a href="features_product.php?productId='.$row[0].'">'.$row[1].'</a>';
       $strHTML_aside .= '<span class="count">(2)</span>';
       $strHTML_aside .= '</li>';
+      
+      
+      //get current info product id
+      if($row[0] == $id)
+      {
+        $arr['prodName'] = $row[1];
+        $arr['prodDesc'] = $row[2];
+        $arr['prodFullDetail'] = $row[3];
+      }
       
     }//end for
     

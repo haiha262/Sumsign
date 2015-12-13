@@ -85,11 +85,11 @@
 									<div class="summary entry-summary">
 										<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 											<p class="price">
-												<span class="title_product">Title product</span>
+												<span class="title_product" >Title product</span>
 											</p>
 										</div>
-										<div itemprop="description">
-											<p>Aenean eget cursus massa. Phasellus risus dolor, molestie quis egestas quis, congue id augue. Nulla tempor at ante eget aliquet. Suspendisse potenti. Aenean varius quis mi at mattis.</p>
+										<div itemprop="description" >
+											<p id="description">Aenean eget cursus massa.</p>
 										</div>
 										
 										
@@ -105,9 +105,12 @@
 										</ul>
 										<div class="panel entry-content wc-tab" id="tab-description">
 											<h2>Product Description</h2>
-											<p>Aenean eget cursus massa. Phasellus risus dolor, molestie quis egestas quis, congue id augue. Nulla tempor at ante eget aliquet. Suspendisse potenti. Aenean varius quis mi at mattis. Suspendisse ut hendrerit erat. Sed vulputate risus neque. Nunc vitae tempus erat. Quisque vel mauris odio. Nullam et nulla quis quam laoreet fringilla. Ut ultrices molestie arcu consequat varius. Cras tempus urna vel dolor luctus tristique. Nunc tristique a orci eu accumsan.</p>
+											<div id="full-description">
+												<p>Full-description Aenean eget cursus massa. Phasellus risus dolor, molestie quis egestas quis, congue id augue. Nulla tempor at ante eget aliquet. Suspendisse potenti. Aenean varius quis mi at mattis. Suspendisse ut hendrerit erat. Sed vulputate risus neque. Nunc vitae tempus erat. Quisque vel mauris odio. Nullam et nulla quis quam laoreet fringilla. Ut ultrices molestie arcu consequat varius. Cras tempus urna vel dolor luctus tristique. Nunc tristique a orci eu accumsan.</p>
 											<p>In arcu nisi, luctus rhoncus turpis sed, ultrices tristique leo. Vivamus cursus neque quis malesuada accumsan. Maecenas vestibulum elit odio, vitae tempor enim finibus sed. Praesent lacus metus, iaculis pulvinar tincidunt eu, sollicitudin cursus erat. Vivamus eu nibh lorem. Nullam eu porta augue. Maecenas tristique massa non nunc posuere, sed varius dui tempus. Integer lacinia at dolor vel scelerisque. Donec sapien tortor, feugiat sed orci et, efficitur fringilla leo.</p>
-										</div>
+										
+											</div>
+											</div>
 										<div class="panel entry-content wc-tab" id="tab-reviews">
 											<div id="reviews">
 												<div id="comments">
