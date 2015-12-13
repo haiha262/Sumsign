@@ -262,7 +262,7 @@ Materials we can cut:
 														</div>
 													<div class="columnsWrap sc_columns sc_columns_count_3" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php">
+																<a href="features_pages_service.php?productId=7">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-widescreen sc_title_bg sc_bg_animated">
@@ -283,7 +283,7 @@ Materials we can cut:
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.php">
+																<a href="features_pages_service.php?productId=8">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-file-code sc_title_bg sc_bg_animated">
@@ -652,8 +652,6 @@ Materials we can cut:
 	<script type='text/javascript' src='js/custom/_front.js'></script>
 	<script type='text/javascript' src='js/vendor/jquery.countdown-plugin.min.js'> </script>
 	<script type='text/javascript' src='js/vendor/jquery.countdown.min.js'> </script>
-	<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>
-	<script type='text/javascript' src='js/custom/_googlemap_init.js'></script>
 <!--// for customer modified theme-->
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
 

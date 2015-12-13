@@ -209,6 +209,8 @@
 	<script type='text/javascript' src='js/custom/shortcodes_init.min.js'></script>
 	<script type='text/javascript' src='js/custom/_utils.min.js'></script>
 	<script type='text/javascript' src='js/custom/_front.min.js'></script>
+		<script type='text/javascript' src='js/custom/load_product_list.js'></script>
+
 
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
 

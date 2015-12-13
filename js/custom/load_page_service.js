@@ -4,7 +4,6 @@ var id = get_query();
 $(document).ready(function(){
   
 loadService();
-loadMember();
 
 });
 
