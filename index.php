@@ -404,7 +404,7 @@ Materials we can cut:
 															<section class="portfolio isotope folio3col" data-columns="3">
 																<article class="isotopeElement hover_Shift odd flt_252">
 																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="#">
+																		<a href="features_product.php?productId=7">
 																			<div class="img">
 																				<img alt="Neon design" src="images/neon_350x252.png">
 																			</div>
@@ -420,7 +420,7 @@ Materials we can cut:
 																</article>
 																<article class="isotopeElement hover_Shift even flt_251">
 																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="#">
+																		<a href="features_product.php?productId=1">
 																			<div class="img">
 																				<img alt="Digital Printing" src="images/print1_350x252.png">
 																			</div>
@@ -436,7 +436,7 @@ Materials we can cut:
 																</article>
 																<article class="isotopeElement hover_Shift odd flt_253 flt_252">
 																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="#">
+																		<a href="features_product.php?productId=5">
 																			<div class="img">
 																				<img alt="10 Design Lessons" src="images/lightbox_350x252.png">
 																			</div>
@@ -452,7 +452,7 @@ Materials we can cut:
 																</article>
 																<article class="isotopeElement hover_Shift even flt_250">
 																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="#">
+																		<a href="features_product.php?productId=6">
 																			<div class="img">
 																				<img alt="3D design " src="images/3d_350x252.png">
 																			</div>
@@ -484,7 +484,7 @@ Materials we can cut:
 																</article>-->
 																<article class="isotopeElement hover_Shift even last flt_251 flt_250">
 																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="#">
+																		<a href="features_product.php?productId=6">
 																			<div class="img">
 																				<img alt="Outsign 3D design  Ideas" src="images/3d1_350x252.png">
 																			</div>
