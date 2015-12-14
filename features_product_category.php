@@ -25,7 +25,7 @@
 	</script>
 	<![endif]-->
 </head>
-<body class="archive boxed top_panel_above usermenu_hide woocommerce woocommerce-page shop_bg">
+<body class="archive wide top_panel_above usermenu_hide woocommerce woocommerce-page shop_bg">
 	
 	<!--[if lt IE 9]>
 		<div class="sc_infobox sc_infobox_style_error">
@@ -84,7 +84,7 @@
 									</select>
 									<input type="hidden" name="product_cat" value="basins-sinks"/>
 								</form>
-								<ul class="products">
+								<ul class="products" id="products-catagory">
 									<li class="first product">
 										<a href="features_product.php">
 											<img src="images/wide_format.png" class="attachment-shop_catalog" alt="Wide format print - 1"/>
@@ -102,40 +102,7 @@
 										</a>
 										
 									</li>
-									<li class="first product">
-										<a href="features_product.php">
-											<img src="images/wide_format.png" class="attachment-shop_catalog" alt="Wide format print - 1"/>
-											<h3>Wide format print</h3>
-											
-										</a>
-										
-									</li>
-									<li class="product">
-										<a href="features_product.php">
-											
-											<img src="images/vinyl-sticker.png" class="attachment-shop_catalog" alt="Vinyl sticker -1"/>
-											<h3>Vinyl sticker</h3>
-											
-										</a>
-										
-									</li>
-									<li class="first product">
-										<a href="#">
-											<img src="images/wide_format.png" class="attachment-shop_catalog" alt="Wide format print - 1"/>
-											<h3>Wide format print</h3>
-											
-										</a>
-										
-									</li>
-									<li class="product">
-										<a href="#">
-											
-											<img src="images/vinyl-sticker.png" class="attachment-shop_catalog" alt="Vinyl sticker -1"/>
-											<h3>Vinyl sticker</h3>
-											
-										</a>
-										
-									</li>
+
 								</ul>
 							</article>
 						</section>
@@ -185,9 +152,10 @@
 	<script type='text/javascript' src='js/custom/_utils.min.js'></script>
 	<script type='text/javascript' src='js/custom/_front.min.js'></script>
 	<script type='text/javascript' src='js/vendor/jquery-ui.js'></script>
-	
-
-	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
-
+	<script type='text/javascript' src='js/custom/load_page_service.js'></script>
+	<script type='text/javascript' src='js/custom/load_product_list.js'></script>
+<script type='text/javascript' src='js/custom/load_product_list_catagory.js'></script>
+<!--	<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>
+-->
 </body>
 </html>
