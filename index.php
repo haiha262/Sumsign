@@ -654,6 +654,7 @@ Materials we can cut:
 	<script type='text/javascript' src='js/vendor/jquery.countdown.min.js'> </script>
 <!--// for customer modified theme-->
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
+<script type='text/javascript' src='js/custom/load_menu_service.js'></script>
 
 </body>
 </html>

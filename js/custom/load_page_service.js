@@ -36,11 +36,11 @@ function loadMember() {
 }
 function loadService() {
    
-    //alert("before " + id['productId']);
+    //alert("before " + id['serviceId']);
     var request = {
-        productId : id['productId']
+        serviceId : id['serviceId']
     };
-    $.post("load_service.php",
+    $.post("load_service_detail.php",
        request,
         function(jsondata,status){
             if (status=="success") {

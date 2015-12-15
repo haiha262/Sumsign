@@ -91,28 +91,13 @@
                                             <a href="#">Service #1</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?productId=1">Design</a>
+                                                    <a href="features_pages_service.php?serviceId=1">Design</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?productId=2">Manufacture</a>
+                                                    <a href="features_pages_service.php?serviceId=2">Manufacture</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?productId=3">Installation</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    
-                                        <li class="menu-item menu-item-has-children">
-                                            <a href="#">Service #1</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item">
-                                                    <a href="features_pages_service.php?productId=4">Digital Printing</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="features_pages_service.php?productId=5">Shop Fitting Renovation</a>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <a href="features_pages_service.php?productId=6">CNC Cutting </a>
+                                                    <a href="features_pages_service.php?serviceId=3">Installation</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -121,10 +106,25 @@
                                             <a href="#">Service #1</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?productId=7">Brand Design & Management</a>
+                                                    <a href="features_pages_service.php?serviceId=4">Digital Printing</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?productId=8">Web Design</a>
+                                                    <a href="features_pages_service.php?serviceId=5">Shop Fitting Renovation</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="features_pages_service.php?serviceId=6">CNC Cutting </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#">Service #1</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="features_pages_service.php?serviceId=7">Brand Design & Management</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="features_pages_service.php?serviceId=8">Web Design</a>
                                                 </li>
                                             </ul>
                                         </li>

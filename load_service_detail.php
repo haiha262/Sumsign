@@ -2,10 +2,10 @@
 require_once('connect.php');
 if ($_SERVER['REQUEST_METHOD']== "POST")
 {
-    $id = $_POST["productId"];
+    $id = $_POST["serviceId"];
    
     
-    if(isset($_POST['productId']))
+    if(isset($_POST['serviceId']))
     {
         $query = "SELECT * FROM `service` where id = " . $id;
         $arr = array();
