@@ -139,7 +139,7 @@
 													<div class="sc_section sc_aligncenter">
 														<div class="columnsWrap sc_columns sc_columns_count_3 margin_bottom_big" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php?productId=1">
+																<a href="features_pages_service.php?serviceId=1">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-brush sc_title_bg sc_bg_animated">
@@ -157,7 +157,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.php?productId=2">
+																<a href="features_pages_service.php?serviceId=2">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-wired sc_title_bg sc_bg_animated">
@@ -175,7 +175,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_3 odd">
-																<a href="features_pages_service.php?productId=3">
+																<a href="features_pages_service.php?serviceId=3">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-tools sc_title_bg sc_bg_animated">
@@ -195,7 +195,7 @@
 														</div>
 														<div class="columnsWrap sc_columns sc_columns_count_3" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php?productId=4">
+																<a href="features_pages_service.php?serviceId=4">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-print sc_title_bg sc_bg_animated">
@@ -213,7 +213,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.php?productId=5">
+																<a href="features_pages_service.php?serviceId=5">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-electric38 sc_title_bg sc_bg_animated">
@@ -231,7 +231,7 @@
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_3 odd">
-																<a href="features_pages_service.php?productId=6">
+																<a href="features_pages_service.php?serviceId=6">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-scissor8 sc_title_bg sc_bg_animated">
@@ -262,7 +262,7 @@ Materials we can cut:
 														</div>
 													<div class="columnsWrap sc_columns sc_columns_count_3" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php?productId=7">
+																<a href="features_pages_service.php?serviceId=7">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-widescreen sc_title_bg sc_bg_animated">
@@ -283,7 +283,7 @@ Materials we can cut:
 																</a>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.php?productId=8">
+																<a href="features_pages_service.php?serviceId=8">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-file-code sc_title_bg sc_bg_animated">
