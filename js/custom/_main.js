@@ -524,7 +524,8 @@ function popup_block_init() {
 		user_popup  +=		'</div>';
 		user_popup  +=		'<div id="registerForm" class="formItems registerFormBody">';
 		user_popup  +=			'<form name="register_form" method="post" class="formValid">';
-		user_popup  +=				'<input type="hidden" name="redirect_to" value="index.html"/>';
+		user_popup  +=			'<div>';
+		//user_popup  +=				'<input type="hidden" name="redirect_to" value="register.php"/>';
 		user_popup  +=				'<div class="itemformLeft">';
 		user_popup  +=					'<ul class="formList">';
 		user_popup  +=						'<li class="icon formUser">';
@@ -534,7 +535,7 @@ function popup_block_init() {
 		user_popup  +=							'<input type="text" id="registration_email" name="registration_email" value="" placeholder="E-mail">';
 		user_popup  +=						'</li>';
 		user_popup  +=						'<li class="i-agree">';
-		user_popup  +=							'<input type="checkbox" value="forever" id="i-agree" name="i-agree">';
+		//user_popup  +=							'<input type="checkbox" value="forever" id="i-agree" name="i-agree">';
 		user_popup  +=							'<label for="i-agree">I agree with</label>';
 		user_popup  +=							'<a href="#">Terms &amp; Conditions</a>';
 		user_popup  +=						'</li>';
@@ -554,15 +555,41 @@ function popup_block_init() {
 		user_popup  +=					'</ul>';
 		user_popup  +=					'<div class="formDescription">Minimum 6 characters</div>';
 		user_popup  +=				'</div>';
+		user_popup  +=			'</div>';
+		
+		
+		user_popup  +=			'<br/><div class="messageBlock"></div>';
 		user_popup  +=			'</form>';
-		user_popup  +=			'<div class="result messageBlock"></div>';
+		
 		user_popup  +=		'</div>';
 		user_popup  +=	'</div>';
 		user_popup  +='</div>';
 
 		jQuery('body').append(user_popup);
 		jQuery('#signup').click(function(){
-		alert('Sign UP successful');
+			
+			var form = jQuery(this).parents("form");
+			var action = form.attr('action');
+		
+			var result = submitRegister(form, action!=undefined ? action : Axiom_ajax_url);
+			if(!result)
+			{
+				
+				var request = {
+					username : form.find('#registration_username').val(),
+					password : form.find('#registration_pwd').val(),
+					email : form.find('#registration_email').val()
+				};
+				
+				jQuery.post("register_customer.php", request, function(data,status)
+					{
+						 if (status=="success") {
+							alert("AAAA" + data);
+						}
+						
+					});
+			}	
+			
 		});
 	}
 

@@ -2084,7 +2084,103 @@ function contactform3Width() {
 	textarea.css('width', (contW - buttonW - margin - 5) + 'px');*/
 }
 
+//ha.tran
+//Register form
+function submitRegister(form, url)
+{
+	"use strict";
+	var error = false;
+	var formFields = form.serializeArray();
+	error = formValidateRegister(form, {
+	error_message_show: true,
+	error_message_time: 3000,
+	error_message_class: "sc_infobox sc_infobox_style_error",
+	error_fields_class: "error_fields_class",
+	exit_after_first_error: false,
+	rules: [
+		{
+			field: "registration_username",
+			min_length: { value: 1,	 message: Axiom_NAME_EMPTY },
+			max_length: { value: 60, message: Axiom_NAME_LONG}
+		},
+		{
+			field: "registration_email",
+			min_length: { value: 7,	 message: Axiom_EMAIL_EMPTY },
+			max_length: { value: 60, message: Axiom_EMAIL_LONG},
+			mask: { value: Axiom_EMAIL_MASK, message: Axiom_EMAIL_NOT_VALID}
+		},
+		{
+			field: "registration_pwd",
+			min_length: { value: 5,	 message: Axiom_PASSWORD_EMPTY },
+			max_length: { value: 100, message: Axiom_PASSWORD_LONG}
+		},
+		{
+			field: "registration_pwd2",
+			equal_to: { value: 'registration_pwd',	 message: Axiom_PASSWORD_NOT_EQUAL }
+		}
+	]
+	});
+	return error; 
+}
 
+//hatran add
+function formValidateRegister(form, opt) {
+	"use strict";
+	var error_msg = '';
+	form.find(":input").each(function() {
+		"use strict";
+		if (error_msg!='' && opt.exit_after_first_error) return;
+		for (var i = 0; i < opt.rules.length; i++) {
+			if (jQuery(this).attr("name") == opt.rules[i].field) {
+				var val = jQuery(this).val();
+				var error = false;
+				if (typeof(opt.rules[i].min_length) == 'object') {
+					if (opt.rules[i].min_length.value > 0 && val.length < opt.rules[i].min_length.value) {
+						if (error_msg=='') jQuery(this).get(0).focus();
+						error_msg += '<p class="error_item">' + (typeof(opt.rules[i].min_length.message)!='undefined' ? opt.rules[i].min_length.message : opt.error_message_text ) + '</p>'
+						error = true;
+					}
+				}
+				if ((!error || !opt.exit_after_first_error) && typeof(opt.rules[i].max_length) == 'object') {
+					if (opt.rules[i].max_length.value > 0 && val.length > opt.rules[i].max_length.value) {
+						if (error_msg=='') jQuery(this).get(0).focus();
+						error_msg += '<p class="error_item">' + (typeof(opt.rules[i].max_length.message)!='undefined' ? opt.rules[i].max_length.message : opt.error_message_text ) + '</p>'
+						error = true;
+					}
+				}
+				if ((!error || !opt.exit_after_first_error) && typeof(opt.rules[i].mask) == 'object') {
+					if (opt.rules[i].mask.value != '') {
+						var regexp = new RegExp(opt.rules[i].mask.value);
+						if (!regexp.test(val)) {
+							if (error_msg=='') jQuery(this).get(0).focus();
+							error_msg += '<p class="error_item">' + (typeof(opt.rules[i].mask.message)!='undefined' ? opt.rules[i].mask.message : opt.error_message_text ) + '</p>'
+							error = true;
+						}
+					}
+				}
+				if ((!error || !opt.exit_after_first_error) && typeof(opt.rules[i].equal_to) == 'object') {
+					if (opt.rules[i].equal_to.value != '' && val!=jQuery(jQuery(this).get(0).form[opt.rules[i].equal_to.value]).val()) {
+						if (error_msg=='') jQuery(this).get(0).focus();
+						error_msg += '<p class="error_item">' + (typeof(opt.rules[i].equal_to.message)!='undefined' ? opt.rules[i].equal_to.message : opt.error_message_text ) + '</p>'
+						error = true;
+					}
+				}
+				if (opt.error_fields_class != '') jQuery(this).toggleClass(opt.error_fields_class, error);
+			}
+		}
+	});
+	if (error_msg!='' && opt.error_message_show) {
+		Axiom_error_msg_box = form.find(".messageBlock");
+		if (Axiom_error_msg_box.length == 0) {
+			form.append('<div class="result"></div>');
+			Axiom_error_msg_box = form.find(".result");
+		}
+		if (opt.error_message_class) Axiom_error_msg_box.toggleClass(opt.error_message_class, true);
+		Axiom_error_msg_box.html(error_msg).fadeIn();
+		setTimeout(function() { Axiom_error_msg_box.fadeOut(); }, opt.error_message_time);
+	}
+	return error_msg!='';
+}
 // Form contact
 function userSubmitForm(form, url, nonce){
 	"use strict";
@@ -2112,16 +2208,18 @@ function userSubmitForm(form, url, nonce){
 				},
 				{
 					field: "subject",
-					min_length: { value: 1,	 message: Axiom_SUBJECT_EMPTY },
+					min_length: { value: 5,	 message: Axiom_SUBJECT_EMPTY },
 					max_length: { value: 100, message: Axiom_SUBJECT_LONG}
 				},
 				{
 					field: "message",
-					min_length: { value: 1,  message: Axiom_MESSAGE_EMPTY },
+					min_length: { value: 5,  message: Axiom_MESSAGE_EMPTY },
 					max_length: { value: Axiom_msg_maxlength_contacts, message: Axiom_MESSAGE_LONG}
 				}
 			]
 		});
+		if (!error && url!='#') {
+		}
 	}
 	if ( form_custom == 'contact_2' ) {
 		error = formValidate(form, {
