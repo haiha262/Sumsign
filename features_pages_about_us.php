@@ -4,7 +4,7 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="format-detection" content="telephone=no">
-	<title>M2 | House Repair Services</title>
+	<title>Sumsigns | About us</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
 	<link rel='stylesheet' id='fontello-css' href='css/fontello/css/fontello.css' type='text/css' media='all'/>
 	<link rel='stylesheet' id='animation-css' href='css/fontello/css/animation.css' type='text/css' media='all'/>
@@ -60,7 +60,7 @@
 													<div class="columnsWrap column_block sc_columns no_margin sc_columns_count_2">
 														<div class="columns1_2 sc_column_item sc_column_item_1 odd first">
 															<figure class="sc_image  sc_image_shape_square">
-																<img src="images/1000x667.png" alt=""/>
+																<img src="images/our_company.jpg" alt="Our company"/>
 															</figure>
 														</div>
 														<div class="columns1_2 sc_column_item sc_column_item_2 even">
@@ -81,7 +81,7 @@
 												<div class="wpb_wrapper">
 													<h2 class="sc_title sc_title_regular sc_aligncenter margin_top_middle margin_bottom_small">Meet Our Team</h2>
 													<div class="sc_team">
-														<div class="sc_columns columnsWrap">
+														<div class="sc_columns columnsWrap" id="staff_content">
 															<div class="columns1_4" data-animation="animated fadeInUp">
 																<div class="sc_team_item sc_team_item_1 odd first">
 																	<div class="sc_team_item_avatar">
@@ -210,14 +210,14 @@
 												<div class="wpb_wrapper">
 													<div class="columnsWrap sc_columns sc_columns_count_3">
 														<div class="columns2_3 sc_column_item sc_column_item_1 odd first span_2" data-animation="animated fadeInUp">
-															<h2>Repair skills</h2>
+															<h2>Sign skills</h2>
 															<div class="sc_skills sc_skills_arc" data-type="arc" data-subtitle="Skills">
 																<div class="sc_skills_legend">
 																	<ul>
-																		<li>Maintenance</li>
-																		<li>Plumbing</li>
-																		<li>Carpentry</li>
-																		<li>Wiring</li>
+																		<li>Sign</li>
+																		<li>Banner</li>
+																		<li>Digital Printing</li>
+																		<li>LightBox</li>
 																		<li>Electric</li>
 																	</ul>
 																</div>
@@ -251,46 +251,7 @@
 																</div>
 															</div>
 														</div>
-														<div class="columns1_3 sc_column_item sc_column_item_3 odd after_span_2" data-animation="animated fadeInUp">
-															<h2 class="sc_title sc_title_regular">Our language skills</h2>
-															<div class="sc_skills sc_skills_bar sc_skills_horizontal" data-type="bar" data-subtitle="Skills" data-dir="horizontal">
-																<div class="sc_skills_info">English</div>
-																<div class="sc_skills_info">98%</div>
-																<div class="sc_skills_item sc_skills_style_1 odd first">
-																	<div class="sc_skills_count">
-																		<div class="sc_skills_total" data-start="0" data-stop="98" data-step="1" data-max="100" data-speed="10" data-duration="980" data-ed="%">0%</div>
-																	</div>
-																</div>
-																<div class="sc_skills_info">Spanish</div>
-																<div class="sc_skills_info">66%</div>
-																<div class="sc_skills_item sc_skills_style_1 even">
-																	<div class="sc_skills_count">
-																		<div class="sc_skills_total" data-start="0" data-stop="66" data-step="1" data-max="100" data-speed="31" data-duration="2046" data-ed="%">0%</div>
-																	</div>
-																</div>
-																<div class="sc_skills_info">French</div>
-																<div class="sc_skills_info">87%</div>
-																<div class="sc_skills_item sc_skills_style_1 odd">
-																	<div class="sc_skills_count">
-																		<div class="sc_skills_total" data-start="0" data-stop="87" data-step="1" data-max="100" data-speed="38" data-duration="3306" data-ed="%">0%</div>
-																	</div>
-																</div>
-																<div class="sc_skills_info">Latin</div>
-																<div class="sc_skills_info">82%</div>
-																<div class="sc_skills_item sc_skills_style_1 even">
-																	<div class="sc_skills_count">
-																		<div class="sc_skills_total" data-start="0" data-stop="82" data-step="1" data-max="100" data-speed="24" data-duration="1968" data-ed="%">0%</div>
-																	</div>
-																</div>
-																<div class="sc_skills_info">Others</div>
-																<div class="sc_skills_info">76%</div>
-																<div class="sc_skills_item sc_skills_style_1 odd">
-																	<div class="sc_skills_count">
-																		<div class="sc_skills_total" data-start="0" data-stop="76" data-step="1" data-max="100" data-speed="14" data-duration="1064" data-ed="%">0%</div>
-																	</div>
-																</div>
-															</div>
-														</div>
+														
 													</div>
 													<div class="sc_line sc_line_style_solid margin_top_small margin_bottom_large">
 													</div>
@@ -309,7 +270,7 @@
 																	<div class="sc_skills_count">
 																		<div class="sc_skills_total" data-start="0" data-stop="68" data-step="1" data-max="100" data-speed="13" data-duration="884" data-ed="%">0%</div>
 																	</div>
-																	<div class="sc_skills_info">Wiring</div>
+																	<div class="sc_skills_info">Design</div>
 																	<div class="sc_skills_info">68%</div>
 																</div>
 															</div>
@@ -318,7 +279,7 @@
 																	<div class="sc_skills_count">
 																		<div class="sc_skills_total" data-start="0" data-stop="72" data-step="1" data-max="100" data-speed="15" data-duration="1080" data-ed="%">0%</div>
 																	</div>
-																	<div class="sc_skills_info">Tiling</div>
+																	<div class="sc_skills_info">Installation</div>
 																	<div class="sc_skills_info">72%</div>
 																</div>
 															</div>
@@ -327,7 +288,7 @@
 																	<div class="sc_skills_count">
 																		<div class="sc_skills_total" data-start="0" data-stop="98" data-step="1" data-max="100" data-speed="26" data-duration="2548" data-ed="%">0%</div>
 																	</div>
-																	<div class="sc_skills_info">Electrical</div>
+																	<div class="sc_skills_info">Digital printing</div>
 																	<div class="sc_skills_info">98%</div>
 																</div>
 															</div>
@@ -336,7 +297,7 @@
 																	<div class="sc_skills_count">
 																		<div class="sc_skills_total" data-start="0" data-stop="45" data-step="1" data-max="100" data-speed="21" data-duration="945" data-ed="%">0%</div>
 																	</div>
-																	<div class="sc_skills_info">Plumbing</div>
+																	<div class="sc_skills_info">Shop Fitting</div>
 																	<div class="sc_skills_info">45%</div>
 																</div>
 															</div>
@@ -345,7 +306,7 @@
 																	<div class="sc_skills_count">
 																		<div class="sc_skills_total" data-start="0" data-stop="78" data-step="1" data-max="100" data-speed="37" data-duration="2886" data-ed="%">0%</div>
 																	</div>
-																	<div class="sc_skills_info">Carpentry</div>
+																	<div class="sc_skills_info">Manufacturing</div>
 																	<div class="sc_skills_info">78%</div>
 																</div>
 															</div>
@@ -366,131 +327,8 @@
 			</div>
 
 			<div class="footerContentWrap">
-				<footer class="footerWrap footerStyleDark">
-					<div class="main footerWidget widget_area">
-						<div class="columnsWrap">
-							<aside class="columns1_4 widgetWrap widget widget_text">
-								<h3 class="title">About</h3>
-								<div class="textwidget">
-									<figure class="sc_image  sc_image_shape_square">
-										<img src="images/logo/81x73.png" alt=""/>
-									</figure>
-									<br/> 378 Main Street London England 
-									<br/> info@example.net
-									<br/> +1 (44) 123-45-67
-								</div>
-							</aside>
-							<aside class="columns1_4 widgetWrap widget widget_nav_menu">
-								<h3 class="title">Services</h3>
-								<div class="menu-services-container">
-									<ul id="menu-services" class="menu">
-										<li id="menu-item-3526" class="menu-item menu-item-3526">
-											<a href="features_pages_service.html">Carpentry</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Electrical</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Cabinet Repairs</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Flat Panel TV Installations</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Plumbing Repairs</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Ceiling Fan Installation</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Garage Door Repair</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Painting</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Drywall Repair</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.html">Termite Damage Repairs</a>
-										</li>
-									</ul>
-								</div>
-							</aside>
-							<aside class="columns1_4 widgetWrap widget widget_nav_menu">
-								<h3 class="title">Pages</h3>
-								<div class="menu-pages-container">
-									<ul id="menu-pages" class="menu">
-										<li class="menu-item">
-											<a href="index2.html">Home</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_handyman.html">About Us</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">Portfolio</a>
-										</li>
-										<li class="menu-item">
-											<a href="appointment.html">Make an Appointment</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_faq.html">FAQ</a>
-										</li>
-										<li class="menu-item">
-											<a href="pricing.html">Pricing</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_about_us.html">Team</a>
-										</li>
-										<li class="menu-item">
-											<a href="contacts.html">Contacts</a>
-										</li>
-									</ul>
-								</div>
-							</aside>
-							<aside class="columns1_4 widgetWrap widget widget_text">
-								<h3 class="title">Best Theme</h3>
-								<div class="textwidget">
-									<p>Our company does its work with the customer in mind. That is why our customers are getting only the best services and products to fulfill their most sophisticated demands.</p>
-									<div class="sc_button sc_button_style_global sc_button_size_medium squareButton global medium">
-										<a href="#" class="">Buy Now</a>
-									</div>
-								</div>
-							</aside>
-						</div>
-					</div>
-				</footer> 
-				<div class="copyWrap">
-					<div class="copy main">
-						<div class="copyright">
-							<a href="#">Axiom</a>&copy; 2015 All Rights Reserved
-							<a href="#">Terms of Use</a>
-							and <a href="#">Privacy Policy</a>
-						</div>
-						<div class="copy_socials socPage">
-							<ul>
-								<li>
-									<a class="social_icons icon-facebook" target="_blank" href="http://facebook.com"> </a>
-								</li>
-								<li>
-									<a class="social_icons icon-tumblr" target="_blank" href="http://twitter.com"> </a>
-								</li>
-								<li>
-									<a class="social_icons icon-pinterest" target="_blank" href="http://pinterest.com"> </a>
-								</li>
-								<li>
-									<a class="social_icons icon-dribbble" target="_blank" href="http://dribbble.com"> </a>
-								</li>
-								<li>
-									<a class="social_icons icon-rss" target="_blank" href="#"> </a>
-								</li>
-								<li>
-									<a class="social_icons icon-gplus" target="_blank" href="http://gplus.com"> </a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				<?php require_once('footer.php'); ?>
+			
 			</div> 
 		</div> 
 	</div> 
@@ -508,6 +346,9 @@
 	<script type='text/javascript' src='js/custom/_utils.min.js'></script>
 	<script type='text/javascript' src='js/custom/_front.min.js'></script>
 	<script type='text/javascript' src='js/vendor/diagram.raphael.min.js'></script>
+	<script type='text/javascript' src='js/custom/load_page_service.js'></script>
+	<script type='text/javascript' src='js/custom/load_product_list.js'></script>
+	<script type='text/javascript' src='js/custom/load_manager.js'></script>
 
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
 
