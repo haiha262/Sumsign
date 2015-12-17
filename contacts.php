@@ -4,7 +4,7 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="format-detection" content="telephone=no">
-	<title>M2 | House Repair Services</title>
+	<title>Sumsign | Contacts</title>
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
 	<link rel='stylesheet' id='fontello-css' href='css/fontello/css/fontello.css' type='text/css' media='all'/>
 	<link rel='stylesheet' id='animation-css' href='css/fontello/css/animation.css' type='text/css' media='all'/>
