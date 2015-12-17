@@ -875,7 +875,7 @@ body.boxed .boxedWrap,
 .image_bg {background-image:url(../images/1386x560.png);background-size:cover;}
 .image_bg .sc_testimonials,.image_bg .sc_title {color: #fff;}
 
-.image_bg2 {background-image:url(../images/1687x800.png);background-size:cover;}
+.image_bg2 {background-image:url(../images/register_bg.png);background-size:cover;}
 .image_bg2 .sc_testimonials,.image_bg2 .sc_title {color: #fff;}
 
 /* partner_section */
@@ -982,7 +982,7 @@ header.fixedTopMenu .topWrap{ position: fixed; left: 0; top: 0; z-index: 2000; w
 header.fixedTopMenu .topWrap .logo .logo_main { display:none; }
 header.fixedTopMenu .topWrap .logo .logo_fixed { display:inline-block; }
 header.fixedTopMenu .topWrap .logo { padding: 0;}
-header.fixedTopMenu .topWrap .logo img { max-height: 50px; max-width: 55px;	}
+header.fixedTopMenu .topWrap .logo img { max-height: 50px; max-width: auto;	}
 header.fixedTopMenu .topWrap .logo .logo_slogan {display:none; }
 header.fixedTopMenu .topWrap .menuTopWrap > ul > li { padding: 15px 0;}
 header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul > li > ul {top: 60px;}
@@ -1000,7 +1000,7 @@ header.topSearchShow .menuTopWrap { display: none !important; }
 .topWrap:after { content:""; display:block; clear:both; }
 .topWrap .logo { float:left; font-size:29px; font-weight:100; padding: 35px 0 30px; color:#fff;}
  		 .logo a { display:block; color:#fff; text-decoration:none;}
- 		 .logo img { display:inline-block; max-height:74px; border:none; vertical-align:top; margin-right:10px;max-width: 81px;}
+ 		 .logo img { display:inline-block; max-height: 80px; border:none; vertical-align:top; margin-right:10px;max-width: auto;}
 		 .logo .logo_text { display:inline-block; vertical-align:top; line-height:21px; }
 		 .logo .logo_slogan { display:block; vertical-align:top; line-height:14px; font-size:10px; }
 		 .logo a:hover { color:#ffffff; }
