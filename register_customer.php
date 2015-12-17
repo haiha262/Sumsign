@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD']== "POST")
     $username = $_POST['username'];
     $password = MD5($_POST['password']);
     $email = $_POST['email'];
-    $sql = "SELECT * FROM `customer` where `email` = `".$email."`";
+    $sql = "SELECT * FROM `customer` where `cusName` = '".$username."'";
     $result = mysqli_query($conn,$sql);
     $rowCount = mysqli_num_rows($result);
     if($rowCount>0)

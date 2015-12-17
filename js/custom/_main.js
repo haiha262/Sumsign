@@ -583,10 +583,28 @@ function popup_block_init() {
 				
 				jQuery.post("register_customer.php", request, function(data,status)
 					{
-						 if (status=="success") {
-							alert("AAAA" + data);
+						if (status=="success") {
+							if(data=="true")
+							{
+								alert( Axiom_REGISTRATION_SUCCESS);
+								form.find(":input").each(function() {
+									jQuery(this).val("");
+								});
+							}
+							else
+							{
+							
+								Axiom_error_msg_box = form.find(".messageBlock");
+								if (Axiom_error_msg_box.length == 0) {
+									form.append('<div class="result"></div>');
+									Axiom_error_msg_box = form.find(".result");
+								}
+								var error_msg = "User name has already regitered!"
+								Axiom_error_msg_box.toggleClass("sc_infobox sc_infobox_style_error", true);
+								Axiom_error_msg_box.html(Axiom_REGISTRATION_FAILED + " "  +error_msg).fadeIn();
+								setTimeout(function() { Axiom_error_msg_box.fadeOut(); }, 5000);
+							}
 						}
-						
 					});
 			}	
 			
