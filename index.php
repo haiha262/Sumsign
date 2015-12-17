@@ -81,7 +81,7 @@
 								data-endelementdelay="0.1" 
 								data-endspeed="300" 
 								>
-									<a href="index.html">
+									<a href="index.php">
 										<img src="images/logo/logo_158x99.png" width="158" height="99"  alt="Sumsign"/>
 									</a>
 							</div>
