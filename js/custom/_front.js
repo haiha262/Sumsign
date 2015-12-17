@@ -39,7 +39,7 @@ var Axiom_GEOCODE_ERROR 		  = "Geocode was not successful for the following reas
 var Axiom_GOOGLE_MAP_NOT_AVAIL = "Google map API not available!";
 
 
-
+var Axiom_LOGIN_SUCCESS = "Login success!";
 // AJAX parameters
 var Axiom_ajax_url = "";
 var Axiom_ajax_nonce = "a695bb5b28";

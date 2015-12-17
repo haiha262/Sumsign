@@ -485,12 +485,12 @@ function popup_block_init() {
 		user_popup  +=			'</li>';
 		user_popup  +=		'</ul>';
 		user_popup  +=		'<div id="loginForm" class="formItems loginFormBody">';
-		user_popup  +=			'<div class="itemformLeft">';
-		user_popup  +=				'<form action="#" method="post" name="login_form" class="formValid">';
-		user_popup  +=					'<input type="hidden" name="redirect_to" value="index.html"/>';
+		user_popup  +=			'<form action="#" method="post" name="login_form" class="formValid">';
+		user_popup  +=				'<div class="itemformLeft">';	
+		//user_popup  +=					'<input type="hidden" name="redirect_to" value="index.html"/>';
 		user_popup  +=					'<ul class="formList">';
 		user_popup  +=						'<li class="icon formLogin">';
-		user_popup  +=							'<input type="text" id="login" name="log" value="" placeholder="Login">';
+		user_popup  +=							'<input type="text" id="username" name="user" value="" placeholder="Login">';
 		user_popup  +=						'</li>';
 		user_popup  +=						'<li class="icon formPass">';
 		user_popup  +=							'<input type="password" id="password" name="pwd" value="" placeholder="Password">';
@@ -501,25 +501,25 @@ function popup_block_init() {
 		user_popup  +=							'<label for="rememberme">Remember me</label>';
 		user_popup  +=						'</li>';
 		user_popup  +=						'<li>';
-		user_popup  +=							'<a href="#" class="sendEnter enter">Login</a>';
+		user_popup  +=							'<a href="#" class="sendEnter enter" id="login">Login</a>';
 		user_popup  +=						'</li>';
 		user_popup  +=					'</ul>';
-		user_popup  +=				'</form>';
-		user_popup  +=			'</div>';
-		user_popup  +=			'<div class="itemformRight">';
-		user_popup  +=				'<ul class="formList">';
-		user_popup  +=					'<li>You can login using your social profile</li>';
-		user_popup  +=					'<li class="loginSoc">';
-		user_popup  +=						'<a href="#" class="iconLogin fb"></a>';
-		user_popup  +=						'<a href="#" class="iconLogin tw"></a>';
-		user_popup  +=						'<a href="#" class="iconLogin gg"></a>';
-		user_popup  +=					'</li>';
-		user_popup  +=					'<li>';
-		user_popup  +=						'<a href="#" class="loginProblem">Problem with login?</a>';
-		user_popup  +=					'</li>';
-		user_popup  +=				'</ul>';
-		user_popup  +=			'</div>';
-		user_popup  +=			'<div class="result messageBlock">';
+		user_popup  +=				'</div>'//div for left;
+		user_popup  +=				'<div class="itemformRight">';
+		user_popup  +=					'<ul class="formList">';
+		user_popup  +=						'<li>You can login using your social profile</li>';
+		user_popup  +=						'<li class="loginSoc">';
+		user_popup  +=							'<a href="#" class="iconLogin fb"></a>';
+		user_popup  +=							'<a href="#" class="iconLogin tw"></a>';
+		user_popup  +=							'<a href="#" class="iconLogin gg"></a>';
+		user_popup  +=						'</li>';
+		user_popup  +=						'<li>';
+		user_popup  +=							'<a href="#" class="loginProblem">Problem with login?</a>';
+		user_popup  +=						'</li>';
+		user_popup  +=					'</ul>';
+		user_popup  +=				'</div>'//div for right;
+		user_popup  +=				'<div class= "messageBlock">';
+		user_popup  +=			'</form>';
 		user_popup  +=			'</div>';
 		user_popup  +=		'</div>';
 		user_popup  +=		'<div id="registerForm" class="formItems registerFormBody">';
@@ -566,6 +566,40 @@ function popup_block_init() {
 		user_popup  +='</div>';
 
 		jQuery('body').append(user_popup);
+		//hatran
+		jQuery('.sendEnter').click(function(){
+			var form = jQuery(this).parents("form");
+			var action = form.attr('action');
+			var request = {
+					username : form.find('#username').val(),
+					password : form.find('#password').val(),
+					
+				};
+				
+			jQuery.post("login_customer.php", request, function(data,status)
+			{
+				if (status=="success") {
+					if(data=="true")
+					{
+						alert( Axiom_LOGIN_SUCCESS);
+						form.find(":input").each(function() {
+							jQuery(this).val("");
+						});
+					}
+					else
+					{
+					
+						Axiom_error_msg_box = form.find(".messageBlock");
+						
+						var error_msg = "Username or password are incorrect!"
+						Axiom_error_msg_box.toggleClass("sc_infobox sc_infobox_style_error", true);
+						Axiom_error_msg_box.html(error_msg).fadeIn();
+						setTimeout(function() { Axiom_error_msg_box.fadeOut(); }, 5000);
+					}
+				}
+			});
+		}
+		);
 		jQuery('#signup').click(function(){
 			
 			var form = jQuery(this).parents("form");
@@ -595,10 +629,7 @@ function popup_block_init() {
 							{
 							
 								Axiom_error_msg_box = form.find(".messageBlock");
-								if (Axiom_error_msg_box.length == 0) {
-									form.append('<div class="result"></div>');
-									Axiom_error_msg_box = form.find(".result");
-								}
+								
 								var error_msg = "User name has already regitered!"
 								Axiom_error_msg_box.toggleClass("sc_infobox sc_infobox_style_error", true);
 								Axiom_error_msg_box.html(Axiom_REGISTRATION_FAILED + " "  +error_msg).fadeIn();
