@@ -60,9 +60,7 @@
 										<li class="menu-item">
 											<a href="appointment.html">Make an Appointment</a>
 										</li>
-										<li class="menu-item">
-											<a href="features_pages_faq.html">FAQ</a>
-										</li>								
+																
 									
 										<li class="menu-item">
 											<a href="contacts.php">Contacts</a>

@@ -131,10 +131,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a href="pricing.html">Pricing</a>
-                        </li>
+						</li>
                         <li class="menu-item">
                             <a href="contacts.php">Contacts</a>
                         </li>
