@@ -15,31 +15,11 @@
 							<aside class="columns1_4 widgetWrap widget widget_nav_menu">
 								<h3 class="title">Services</h3>
 								<div class="menu-services-container">
-									<ul id="menu-services" class="menu">
+									<ul id="menu-services_footer" class="menu">
 										<li id="menu-item-3526" class="menu-item menu-item-3526">
 											<a href="features_pages_service.php">Design</a>
 										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.php">Manufacture</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.php">Installation</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.php">Digital printings</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.php">Shop Fitting Renovation</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.php">CNC cutting</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.php">Brand Design & Management</a>
-										</li>
-										<li class="menu-item">
-											<a href="features_pages_service.php">Web Design</a>
-										</li>
+										
 										
 									</ul>
 								</div>

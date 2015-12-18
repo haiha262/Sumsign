@@ -141,19 +141,12 @@
 	    <div class="preloader_image"></div>
 	</div>
 
-	<script type='text/javascript' src='js/vendor/jquery.js'></script>
-	<script type='text/javascript' src='js/vendor/jquery-migrate.min.js'></script>
+	
 
-	<script type='text/javascript' src='js/custom/_main.js'></script>
-	<script type='text/javascript' src='js/vendor/__packed.js'></script>
-	<script type='text/javascript' src='js/custom/shortcodes_init.min.js'></script>
-	<script type='text/javascript' src='js/custom/_utils.min.js'></script>
-	<script type='text/javascript' src='js/custom/_front.min.js'></script>
+	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
+
 	<script type='text/javascript' src='js/custom/_form_contact.js'></script>
 	<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>
 	<script type='text/javascript' src='js/custom/_googlemap_init.js'></script>
-	<script type='text/javascript' src='js/custom/load_product_list.js'></script>
-	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
-
 </body>
 </html>

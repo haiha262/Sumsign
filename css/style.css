@@ -1393,7 +1393,7 @@ ul#mainmenu .menu-panel ul.columns > li + li {}
 .topMenuStyleLine ul#mainmenu .menu-panel ul.columns > li + li {	border-color: rgba(255,255,255,0.3); }
 
 ul#mainmenu .menu-panel ul.columns > li > a { padding:0 20px 10px; }
-.topMenuStyleLine ul#mainmenu .menu-panel ul.columns > li > a {display: none;}
+.topMenuStyleLine ul#mainmenu .menu-panel ul.columns > li > a {display: block; font-weight: bold;}
 .topMenuStyleLine ul#mainmenu .menu-panel ul.columns > li > a:hover {cursor:default; }
 .topMenuStyleLine ul#mainmenu .menu-panel ul.columns > li > a:hover .menu_item_description {  }
 

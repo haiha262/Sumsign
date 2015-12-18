@@ -86,30 +86,30 @@
                             <a href="#">Service</a>
                             <ul class="menu-panel columns">
                                 <li>
-                                    <ul class="custom-menu-style columns sub-menu">
+                                    <ul class="custom-menu-style columns sub-menu" id="menu_services_header">
                                         <li class="menu-item menu-item-has-children">
                                             <a href="#">Service #1</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?serviceId=1">Design</a>
+                                                    <a href="features_pages_service.php?serviceId=1">Service 1A</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?serviceId=2">Manufacture</a>
+                                                    <a href="features_pages_service.php?serviceId=2">Service 1b</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?serviceId=3">Installation</a>
+                                                    <a href="features_pages_service.php?serviceId=3">Service 1c</a>
                                                 </li>
                                             </ul>
                                         </li>
                                     
                                         <li class="menu-item menu-item-has-children">
-                                            <a href="#">Service #1</a>
+                                            <a href="#">Service #2</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?serviceId=4">Digital Printing</a>
+                                                    <a href="features_pages_service.php?serviceId=4">Service #2a</a>
                                                 </li>
                                                 <li class="menu-item">
-                                                    <a href="features_pages_service.php?serviceId=5">Shop Fitting Renovation</a>
+                                                    <a href="features_pages_service.php?serviceId=5">Service #2b</a>
                                                 </li>
                                                 <li class="menu-item">
                                                     <a href="features_pages_service.php?serviceId=6">CNC Cutting </a>

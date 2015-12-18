@@ -1,28 +1,36 @@
-(function($)
-{
-$(document).ready()
-{
-//	var id = get_query();
-//	 var request = {
-//        productId : id['productId']
-//    };
-	$.post('load_menu_service.php',function(response,status)
-	{
-		var data = $.parseJSON(response);
-		$("#menu-services").html(data.footer);
+(function( $ ) {
+
+
+	$(document).ready(function(){
+  
+
+	  $.post("load_menu_service.php",function(jsondata,status)
+			 {
+				var response = $.parseJSON(jsondata)
+				if (status == "success") {
+					$("#menu-services_footer").html(response.footer);
+					$("#menu_services_header").html(response.header);
+				}
+			 }
+			 );
+    //$.post("load_service_detail.php",
+    //   request,
+    //    function(jsondata,status){
+    //        if (status=="success") {
+    //            
+    //            var response = $.parseJSON(jsondata)
+    //            console.log("res");
+    //            //alert(JSON.stringify(data));
+    //            strService = response.name.toLowerCase();
+    //            $('.current').html('Service / ' +response.name);
+    //            $('.pageTitle').html('Service / ' + response.name.toUpperCase());
+    //            $('#service_title').html(response.name.toUpperCase());
+    //            $('#service_desc').html(response.desc);
+    //            loadMember();
+    //        }
+    //        
+    //    });
 		
-		
-		//alert(data.mainImage);
-	}
-	);	
-}
-	function get_query(){
-		var url = location.search;
-		var qs = url.substring(url.indexOf('?') + 1).split('&');
-		for(var i = 0, result = {}; i < qs.length; i++){
-			qs[i] = qs[i].split('=');
-			result[qs[i][0]] = decodeURIComponent(qs[i][1]);
-		}
-		return result;
-	}
-})(jQuery)
+	
+	});
+})(jQuery);
