@@ -23,6 +23,8 @@
 		<script src="js/vendor/html5.js" type="text/javascript">
 	</script>
 	<![endif]-->
+	<link rel='stylesheet' id='woocommerce-general-css' href='js/vendor/woocommerce/assets/css/woocommerce.css' type='text/css' media='all'/>
+
 </head>
 <body class="page fullscreen top_panel_hide usermenu_show toc_show">
 
@@ -142,366 +144,99 @@
 																<a href="features_pages_service.php?serviceId=1">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
-																			<div class="sc_title_icon sc_title_top sc_size_medium icon-brush sc_title_bg sc_bg_animated">
+																			<div class="sc_title_icon sc_title_top sc_size_medium icon-smashing sc_title_bg sc_bg_animated">
 																			</div>
-																			<h5 class="sc_title sc_title_iconed">Design </h5>
-																		</div>
-																	</div>
-																	<div class="sc_section ">
-																		<div class="wpb_text_column wpb_content_element ">
-																			<div class="wpb_wrapper">
-																				<p>Our state of the art computer system with the dedication and detailed attention from our talented design group will help you to bring your idea from initial concept to the best and valuable advertising products…</p>
-																			</div>
+																			<h5 class="sc_title sc_title_iconed">SIGNS </h5>
 																		</div>
 																	</div>
 																</a>
+																
+																<div class="sc_section ">
+																	<div class="wpb_text_column wpb_content_element ">
+																		<div class="wpb_wrapper">
+                                                                            <p>Our state of the art computer system with the dedication and detailed attention from our talented design group will help you to bring your idea from initial concept to the best and valuable advertising products…</p>																			
+																			<ul>
+																				<li><a href="#">Sign product</a></li>
+																				<li><a href="#">Printing</a></li>
+																				<li><a href="#">Shop Fitting</a></li>
+																			</ul>
+																			
+																		</div>
+																	</div>
+																</div>
+																
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_2 even">
 																<a href="features_pages_service.php?serviceId=2">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
-																			<div class="sc_title_icon sc_title_top sc_size_medium icon-wired sc_title_bg sc_bg_animated">
+																			<div class="sc_title_icon sc_title_top sc_size_medium icon-brush sc_title_bg sc_bg_animated">
 																			</div>
-																			<h5 class="sc_title sc_title_iconed">Manufacture</h5>
-																		</div>
-																	</div>
-																	<div class="sc_section ">
-																		<div class="wpb_text_column wpb_content_element ">
-																			<div class="wpb_wrapper">
-																				<p>We at Sumsigns manufacture & install virtually every type of sign and graphic. We can give your sign the finish it needs be it polished, linished or flamed edges. The team at Sumsigns are experienced in all sign manufacturing techniques Spray Painting of all forms of signage, from large pylons to small fabricated letters Fabricating Steel for light boxes, fabricated letters, Pylon Signs Precision laser cutting & routing.</p>
-																			</div>
+																			<h5 class="sc_title sc_title_iconed">DESIGN</h5>
 																		</div>
 																	</div>
 																</a>
+																<div class="sc_section ">
+																	<div class="wpb_text_column wpb_content_element ">
+																		<div class="wpb_wrapper">
+																			<p>Our state of the art computer system with the dedication and detailed attention from our talented design group will help you to bring your idea from initial concept to the best and valuable advertising products…</p>
+																			<ul>
+																				<li><a href="#">Graphic Design</a></li>
+																				<li><a href="#">Interior Design</a></li>
+																				<li><a href="#">Brand consulting building & develop</a></li>
+																			</ul>
+																		</div>
+																	</div>
+																</div>
 															</div>
 															<div class="columns1_3 sc_column_item sc_column_item_3 odd">
 																<a href="features_pages_service.php?serviceId=3">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
-																			<div class="sc_title_icon sc_title_top sc_size_medium icon-tools sc_title_bg sc_bg_animated">
-																			</div>
-																			<h5 class="sc_title sc_title_iconed">Installation </h5>
-																		</div>
-																	</div>
-																	<div class="sc_section ">
-																		<div class="wpb_text_column wpb_content_element ">
-																			<div class="wpb_wrapper">
-																				<p>Our team of qualified installers who are ready to erect your message; they will create concrete footings for Pylon Signs, install Banners and many, many other processes.</p>
-																			</div>
-																		</div>
-																	</div>
-																</a>
-															</div>
-														</div>
-														<div class="columnsWrap sc_columns sc_columns_count_3" data-animation="animated fadeInUp">
-															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php?serviceId=4">
-																	<div class="sc_section">
-																		<div class="sc_title_icon_animated">
-																			<div class="sc_title_icon sc_title_top sc_size_medium icon-print sc_title_bg sc_bg_animated">
-																			</div>
-																			<h5 class="sc_title sc_title_iconed">Digital Printing</h5>
-																		</div>
-																	</div>
-																	<div class="sc_section ">
-																		<div class="wpb_text_column wpb_content_element ">
-																			<div class="wpb_wrapper">
-																				<p>With the latest in digital technology on site in our workshop combined with creative art design , we can supply you with economical yet high quality indoor or outdoor digital printing options on a variety of substrates..</p>
-																			</div>
-																		</div>
-																	</div>
-																</a>
-															</div>
-															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.php?serviceId=5">
-																	<div class="sc_section">
-																		<div class="sc_title_icon_animated">
-																			<div class="sc_title_icon sc_title_top sc_size_medium icon-electric38 sc_title_bg sc_bg_animated">
-																			</div>
-																			<h5 class="sc_title sc_title_iconed">Shop Fitting Renovation</h5>
-																		</div>
-																	</div>
-																	<div class="sc_section ">
-																		<div class="wpb_text_column wpb_content_element ">
-																			<div class="wpb_wrapper">
-																				<p>Our shopfitting services include equipment design, merchandising solutions, store layout, metalwork and joinery. Our experience and expertise, coupled with an in-depth understanding of retail shopfitting, enable us to provide a tailored solution to fit our customer’s requirements, at a competitive price. We deliver quality workmanship on time and on budget. We engage with both local and overseas suppliers to manage factors of price and turnaround. Our local supply sources enable us to work with short lead times, rework existing equipment and quickly respond to plan adjustments. Overseas suppliers help us to bring a competitive edge to our pricing. Whatever your needs, we have the resources for a shopfitting solution that will work for you.</p>
-																			</div>
-																		</div>
-																	</div>
-																</a>
-															</div>
-															<div class="columns1_3 sc_column_item sc_column_item_3 odd">
-																<a href="features_pages_service.php?serviceId=6">
-																	<div class="sc_section">
-																		<div class="sc_title_icon_animated">
-																			<div class="sc_title_icon sc_title_top sc_size_medium icon-scissor8 sc_title_bg sc_bg_animated">
-																			</div>
-																			<h5 class="sc_title sc_title_iconed">CNC Cutting </h5>
-																		</div>
-																	</div>
-																	<div class="sc_section ">
-																		<div class="wpb_text_column wpb_content_element ">
-																			<div class="wpb_wrapper">
-																				<p>CNC Cutting is high precision cutting using a 3 axis machine controlled by a computer. <br/>It is fast and clean and able to make complex shapes form a wide variety of materials. As the input is a drawing file, it can cut a single piece or multiples of the same job easily.<br/>
-Materials we can cut:
-<ul>
-<li>Fibreglass</li>
-<li>Foam</li>
-<li>MDF</li>
-<li>Timber</li>
-<li>Polystyrene</li>
-<li>Duct board</li>
-<li>Cardboard</li>
-</ul>
-</p>
-																			</div>
-																		</div>
-																	</div>
-																</a>
-															</div>
-														</div>
-													<div class="columnsWrap sc_columns sc_columns_count_3" data-animation="animated fadeInUp">
-															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php?serviceId=7">
-																	<div class="sc_section">
-																		<div class="sc_title_icon_animated">
-																			<div class="sc_title_icon sc_title_top sc_size_medium icon-widescreen sc_title_bg sc_bg_animated">
-																			</div>
-																			<h5 class="sc_title sc_title_iconed">Brand Design & Management</h5>
-																		</div>
-																	</div>
-																	<div class="sc_section ">
-																		<div class="wpb_text_column wpb_content_element ">
-																			<div class="wpb_wrapper">
-																				<p>
-<p>Our Brand Management solutions enable you to shift the way you reach your current audience and potential market. To effectively compete for customer mindshare, you need a more streamlined approach to marketing across all media forms and channels.</p>
-<p>With Brand Management solutions, you improve marketing return on investment, brand consistency and compliance, asset reuse, and use of new marketing channels. You gain a unified marketing repository. You provide enhanced support for collateral production, creative users, sales, and agencies. And you ensure advanced management of images, presentations, videos, and documents.</p>
-</p>
-																			</div>
-																		</div>
-																	</div>
-																</a>
-															</div>
-															<div class="columns1_3 sc_column_item sc_column_item_2 even">
-																<a href="features_pages_service.php?serviceId=8">
-																	<div class="sc_section">
-																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-file-code sc_title_bg sc_bg_animated">
 																			</div>
-																			<h5 class="sc_title sc_title_iconed">Web Design</h5>
-																		</div>
-																	</div>
-																	<div class="sc_section ">
-																	
-																			<p><p style="text-align: left;">A website is a powerful first impression for a business. It can:</p>
-																				<ul>
-																				<li>Generate sales 24/7.</li>
-																				<li>Have an active presence in the market.</li>
-																				<li>Create targeted marketing with interactive features.</li>
-																				<li>Educate, inform and entertain.</li>
-																				<li>Interact with your clients.</li>
-																				<li>Increase interest in your products and services.</li>
-																				</ul>
-																				<p>A website should be dynamic, well-structured and constantly evolving.
-																				 That means updating your text and images, keeping the content fresh and
-																				 making sure the backend system uses the latest technology.</p>
-																				<p>So if you’re in the market for a new website for your business, or 
-																				simply want to learn how to make the most of what you have, contact us 
-																				today . It’s the first step to understanding the power of web technology
-																				 and online marketing.</p>
-																				
-																				</p>
-																			</div>
+																			<h5 class="sc_title sc_title_iconed">WEB DESIGN/DEVELOP </h5>
 																		</div>
 																	</div>
 																</a>
-															</div>
-														
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<!--<div class="vc_row wpb_row vc_row-fluid darkgrey_section">
-										<div class="wpb_column vc_column_container vc_col-sm-12">
-											<div class="wpb_wrapper">
-												<div class="sc_section sc_aligncenter img_size_initial">
-													<div class="sc_content main" data-animation="animated fadeInUp">
-														<figure class="margin_bottom_middle">
-															<img src="images/logo/128x67.png" alt="" />
-														</figure>
-														<div class="sc_text_slider">
-															<div class="sc_slider_autoheight sc_slider_nocontrols sc_slider_pagination sc_slider sc_slider_swiper swiper-slider-container" data-interval="5000">
-																<ul class="sc_text_slider_items slides swiper-wrapper">
-																	<li class="sc_text_slider_item slides swiper-slide">
-																		<div class="sc_text_slider_item_content">
-																			<div class="sc_text_slider_item_text">
-																				<h2 class="sc_title sc_title_regular">Need Fans or Light Fixtures Installed? Call Us<br />
-																				1 800 1236 589</h2>
-																			</div>
+																<div class="sc_section ">
+																	<div class="wpb_text_column wpb_content_element ">
+																		<div class="wpb_wrapper">
+                                                                            <p>Our state of the art computer system with the dedication and detailed attention from our talented design group will help you to bring your idea from initial concept to the best and valuable advertising products…</p>																			
+																			<ul>
+																				<li><a href="#">Web Design Development</a></li>
+																				<li><a href="#">Web Design Maintenance</a></li>
+																				<li><a href="#">SEO social media</a></li>
+																				<li><a href="#">SEO WEB</a></li>
+																				<li><a href="#">Marketing Digital</a></li>
+																				
+																			</ul>
+																			
 																		</div>
-																	</li>
-																	<li class="sc_text_slider_item slides swiper-slide">
-																		<div class="sc_text_slider_item_content">
-																			<div class="sc_text_slider_item_text">
-																				<h2 class="sc_title sc_title_regular">Call Us for all Your Plumbing Repairs<br />
-																				1 800 1236 589</h2>
-																			</div>
-																		</div>
-																	</li>
-																	<li class="sc_text_slider_item slides swiper-slide">
-																		<div class="sc_text_slider_item_content">
-																			<div class="sc_text_slider_item_text">
-																				<h2 class="sc_title sc_title_regular">We will Take Care of all Your Tiling Needs!<br />
-																				1 800 1236 589</h2>
-																			</div>
-																		</div>
-																	</li>
-																</ul>
-																<div class="flex-control-nav">
+																	</div>
 																</div>
+																
 															</div>
 														</div>
-														<div class="sc_button sc_button_style_light sc_button_size_medium squareButton light medium">
-															<a href="#" class="">Purchase</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>-->
-
-
-									<div class="vc_row wpb_row vc_row-fluid">
-										<div class="wpb_column vc_column_container vc_col-sm-12">
-											<div class="wpb_wrapper">
-												<a id="toc_projects" class="sc_anchor" title="" data-description="Projects gallery" data-icon="icon-file-powerpoint" data-url="#toc_projects" data-separator="yes"></a>
-												<div class="sc_content main">
-													<h1 class="sc_title sc_title_regular sc_aligncenter margin_bottom_mini" data-animation="animated fadeInUp">Projects</h1>
-													<div class="sc_section sc_aligncenter" data-animation="animated fadeInUp">
-														<div class="sc_blogger sc_blogger_horizontal style_portfolio3 portfolioWrap">
-															<div class="isotopeFiltr">
-																<ul>
-																	<li class="squareButton active">
-																		<a href="#" data-filter="*">All</a>
-																	</li>
-																	<li class="squareButton">
-																		<a href="#" data-filter=".flt_252">Neon sign</a>
-																	</li>
-																	<li class="squareButton">
-																		<a href="#" data-filter=".flt_253">Light box</a>
-																	</li>
-																	<li class="squareButton">
-																		<a href="#" data-filter=".flt_251">Digital prints</a>
-																	</li>
-																	<li class="squareButton">
-																		<a href="#" data-filter=".flt_250">3D</a>
-																	</li>
-																</ul>
+														<div class="columnsWrap sc_columns sc_columns_count_3 margin_bottom_big" data-animation="animated fadeInUp">
+															<div class="columns1_3 sc_column_item sc_column_item_1 odd first images">
+																<a href="images/800x800.png" itemprop="image" class="woocommerce-main-image zoom" title="" data-rel="prettyPhoto[product-gallery]">
+																	<img src="images/600x600.png" class="attachment-shop_single" alt="Bathroom Basin &#8211; 1" title="Bathroom Basin &#8211; 1"/>
+																</a>
+																
 															</div>
-															<section class="portfolio isotope folio3col" data-columns="3">
-																<article class="isotopeElement hover_Shift odd flt_252">
-																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="features_product.php?productId=7">
-																			<div class="img">
-																				<img alt="Neon design" src="images/neon_350x252.png">
-																			</div>
-																			<div class="info">
-																				<div class="info-back">
-																					<h4>Neon design </h4>
-																					<p>Neon design with fantastic looking.. </p>
-																					<div class="link-wrapper">View</div>
-																				</div>
-																			</div>
-																		</a>
-																	</div>
-																</article>
-																<article class="isotopeElement hover_Shift even flt_251">
-																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="features_product.php?productId=1">
-																			<div class="img">
-																				<img alt="Digital Printing" src="images/print1_350x252.png">
-																			</div>
-																			<div class="info">
-																				<div class="info-back">
-																					<h4>Digital Printing</h4>
-																					<p>Digital printing is used to ... </p>
-																					<div class="link-wrapper">View</div>
-																				</div>
-																			</div>
-																		</a>
-																	</div>
-																</article>
-																<article class="isotopeElement hover_Shift odd flt_253 flt_252">
-																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="features_product.php?productId=5">
-																			<div class="img">
-																				<img alt="10 Design Lessons" src="images/lightbox_350x252.png">
-																			</div>
-																			<div class="info">
-																				<div class="info-back">
-																					<h4>Lightbox Design </h4>
-																					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod... </p>
-																					<div class="link-wrapper">View</div>
-																				</div>
-																			</div>
-																		</a>
-																	</div>
-																</article>
-																<article class="isotopeElement hover_Shift even flt_250">
-																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="features_product.php?productId=6">
-																			<div class="img">
-																				<img alt="3D design " src="images/3d_350x252.png">
-																			</div>
-																			<div class="info">
-																				<div class="info-back">
-																					<h4>3D Design Ideas</h4>
-																					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod... </p>
-																					<div class="link-wrapper">View</div>
-																				</div>
-																			</div>
-																		</a>
-																	</div>
-																</article>
-																<!--<article class="isotopeElement hover_Shift odd flt_252">
-																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="#">
-																			<div class="img">
-																				<img alt="Interior Design Ideas" src="images/350x252.png">
-																			</div>
-																			<div class="info">
-																				<div class="info-back">
-																					<h4>Interior Design Ideas</h4>
-																					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod... </p>
-																					<div class="link-wrapper">View</div>
-																				</div>
-																			</div>
-																		</a>
-																	</div>
-																</article>-->
-																<article class="isotopeElement hover_Shift even last flt_251 flt_250">
-																	<div class="ih-item colored square effect6 scale_up">
-																		<a href="features_product.php?productId=6">
-																			<div class="img">
-																				<img alt="Outsign 3D design  Ideas" src="images/3d1_350x252.png">
-																			</div>
-																			<div class="info">
-																				<div class="info-back">
-																					<h4>Outsign 3D</h4>
-																					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod... </p>
-																					<div class="link-wrapper">View</div>
-																				</div>
-																			</div>
-																		</a>
-																	</div>
-																</article>
-															</section>
-														</div>
-														<div class="sc_button sc_button_style_global sc_button_size_medium squareButton global medium">
-															<a href="features_product_category.php" class="">VIEW MORE</a>
+															<div class="columns1_3 sc_column_item sc_column_item_1 odd first images">
+																<a href="images/800x800.png" itemprop="image" class="woocommerce-main-image zoom" title="" data-rel="prettyPhoto[product-gallery]">
+																	<img src="images/600x600.png" class="attachment-shop_single" alt="Bathroom Basin &#8211; 1" title="Bathroom Basin &#8211; 1"/>
+																</a>
+																
+															</div>
+															<div class="columns1_3 sc_column_item sc_column_item_1 odd first images">
+																<a href="images/800x800.png" itemprop="image" class="woocommerce-main-image zoom" title="" data-rel="prettyPhoto[product-gallery]">
+																	<img src="images/600x600.png" class="attachment-shop_single" alt="Bathroom Basin &#8211; 1" title="Bathroom Basin &#8211; 1"/>
+																</a>
+																
+															</div>
 														</div>
 													</div>
 												</div>
@@ -509,6 +244,7 @@ Materials we can cut:
 										</div>
 									</div>
 
+				
 									<div class="vc_row wpb_row vc_row-fluid">
 										<div class="wpb_column vc_column_container vc_col-sm-12">
 											<div class="wpb_wrapper">
