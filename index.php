@@ -42,31 +42,8 @@
 			<div id="mainslider_3" class="sliderHomeBullets staticSlider slider_engine_revo slider_alias_rev-hr3">
 				<div id="rev_slider_3_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
 					<div id="rev_slider_3_1" class="rev_slider fullwidthabanner">
-						<ul>	<!-- SLIDE  -->
-							<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-thumb="images/slider/320x200.png"  data-saveperformance="off" >
-								<!-- MAIN IMAGE -->
-								<img src="images/slider/1386x616.png"  alt="slide3_1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-								<!-- LAYERS -->
-							</li>
-							<!-- SLIDE  -->
-							<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-thumb="images/slider/320x200.png"  data-saveperformance="off" >
-								<!-- MAIN IMAGE -->
-								<img src="images/slider/1386x616.png"  alt="slide3_2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-								<!-- LAYERS -->
-							</li>
-							<!-- SLIDE  -->
-							<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-thumb="images/slider/320x200.png"  data-saveperformance="off" >
-								<!-- MAIN IMAGE -->
-								<img src="images/slider/1386x616.png"  alt="slide3_3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-								<!-- LAYERS -->
-							</li>
-							<!-- SLIDE  -->
-							<li data-transition="random" data-slotamount="7" data-masterspeed="300" data-thumb="images/slider/320x200.png"  data-saveperformance="off" >
-								<!-- MAIN IMAGE -->
-								<img src="images/slider/1386x616.png"  alt="slide3_4"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-								<!-- LAYERS -->
-							</li>
-						</ul>
+						<div id="DivTagCloudFX"></div>
+
 						<div class="tp-static-layers">
 							<!-- LAYER NR. 1 -->
 							<div class="tp-caption no_style tp-fade tp-resizeme tp-static-layer" 
@@ -391,6 +368,17 @@
 <!--// for customer modified theme-->
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
 <script type='text/javascript' src='js/custom/load_menu_service.js'></script>
-
+	<script type="text/javascript" src="swfobject.js"></script>
+	<script type="text/javascript">
+		var flashvars = {};
+		var params = {};
+		params.base = "";
+		params.scale = "default";
+		params.salign = "tl";
+		params.wmode = "transparent";
+		params.allowFullScreen = "true";
+		params.allowScriptAccess = "always";
+		swfobject.embedSWF("TagCloudFX.swf", "DivTagCloudFX", "1440", "900", "9.0.0", false, flashvars, params);
+	</script>
 </body>
 </html>

@@ -1,0 +1,70 @@
+<settings>
+  <General_Properties>
+    <componentWidth value="1440"/>
+    <componentHeight value="900"/>
+    <assets value="menu.xml"/>
+    <showAbout value="false"/>
+  </General_Properties>
+  <Tag_Properties>
+    <aspect value="sphere"/>
+    <offsetX value="700"/>
+    <offsetY value="250"/>
+    <radius value="197"/>
+    <perspective value="584"/>
+    <rollOutSpeed value="0"/>
+    <speed value="3"/>
+    <stopingSpeed value="1"/>
+    <rollOutAngle value="0"/>
+    <picWidth value="40"/>
+    <picHeight value="40"/>
+    <picPosition value="bottom"/>
+    <picDistance value="33"/>
+  </Tag_Properties>
+  <Text_Properties>
+    <width value="0"/>
+    <backgroundColor value="0x3300ff"/>
+    <bgAlpha value="1"/>
+    <cornerRadius value="0"/>
+    <borderWidth value="0"/>
+    <borderColor value="0x990000"/>
+    <borderAlpha value="0"/>
+    <paddingLeft value="0"/>
+    <paddingRight value="0"/>
+    <paddingTop value="0"/>
+    <paddingBottom value="0"/>
+    <embedFonts value="false"/>
+    <style value="assets/css/style.css"/>
+  </Text_Properties>
+  <Over_Properties>
+    <overBorderWidth value="0"/>
+    <overBorderColor value=""/>
+    <overBorderAlpha value="0"/>
+  </Over_Properties>
+  <Background_Properties>
+    <fillType value="solid"/>
+    <backgroundImage value=""/>
+    <backgroundFitting value="noscale"/>
+    <backgroundColor1 value="0x000000"/>
+    <backgroundColor2 value="0xe9e9e9"/>
+    <backgroundAlpha value="1"/>
+    <bgCornerRadius value="50"/>
+    <gradientRotation value="203"/>
+    <gradientRatio value="130"/>
+    <gradientPosX value="0"/>
+    <gradientPosY value="0"/>
+    <useShade value="false"/>
+    <shadeColor value=""/>
+    <shadeAlpha value="0"/>
+    <shadeRatio value="0"/>
+    <shadeWidth value="0"/>
+    <shadeHeight value="0"/>
+  </Background_Properties>
+  <Shade_Properties>
+    <useShade value="false"/>
+    <shadeColor value="0xe9e9e9"/>
+    <shadeAlpha value="1"/>
+    <shadeRatio value="211"/>
+    <shadeWidth value="-142"/>
+    <shadeHeight value="392"/>
+  </Shade_Properties>
+</settings>
