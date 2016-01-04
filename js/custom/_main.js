@@ -812,14 +812,6 @@ function service_show() {
 			letter_sendMethod : jQuery("input[name=sendProduct]:checked").val()
 			
 		}
-		jQuery.post("cart.php",request,function(data,status)
-		{
-			if (status=="success") {
-
-               alert(data);
-  
-            }
-		});
 	});
 	
 	//LightBox

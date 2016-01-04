@@ -65,22 +65,8 @@
 								</nav>
 
 								<div itemscope itemtype="http://schema.org/Product" class="product">
-									<div class="images">
-										<a href="images/products/large-format-1.jpg" itemprop="image" class="woocommerce-main-image zoom" title="" data-rel="prettyPhoto[product-gallery]">
-											<img src="images/products/large-format-1.jpg" class="attachment-shop_single" alt="Large format prints 1" title="Large format prints 1"/>
-										</a>
-										<div class="thumbnails columns-5">
-											<a href="images/products/large-format-2.jpg" class="zoom first" title="" data-rel="prettyPhoto[product-gallery]">
-												<img src="images/products/large-format-2.jpg" class="attachment-shop_thumbnail" alt="Large format prints" title="Large format prints"/>
-											</a>
-											<a href="images/products/large-format-3.jpg" class="zoom" title="" data-rel="prettyPhoto[product-gallery]">
-												<img src="images/products/large-format-3.jpg" class="attachment-shop_thumbnail" alt="Large format prints" title="Large format prints"/>
-											</a>
-											<a href="images/products/large-format-4.jpg" class="zoom" title="" data-rel="prettyPhoto[product-gallery]">
-												<img src="images/products/large-format-4.jpg" class="attachment-shop_thumbnail" alt="Large format prints" title="Large format prints"/>
-											</a>
-											
-										</div>
+									<div class="images" id="product-image">
+									
 									</div>
 									<div class="summary entry-summary">
 										<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
@@ -204,18 +190,8 @@
 	    <div class="preloader_image"></div>
 	</div>
 
-	<script type='text/javascript' src='js/vendor/jquery.js'></script>
-	<script type='text/javascript' src='js/vendor/jquery-migrate.min.js'></script>
-
-	<script type='text/javascript' src='js/custom/_main.js'></script>
-	<script type='text/javascript' src='js/vendor/__packed.js'></script>
-	<script type='text/javascript' src='js/custom/shortcodes_init.min.js'></script>
-	<script type='text/javascript' src='js/custom/_utils.min.js'></script>
-	<script type='text/javascript' src='js/custom/_front.min.js'></script>
-		<script type='text/javascript' src='js/custom/load_product_list.js'></script>
-
-
-	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
+<?php require_once('allscript.php'); ?>
+	
 
 </body>
 </html>

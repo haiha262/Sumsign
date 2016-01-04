@@ -14,6 +14,9 @@ $(document).ready()
 		$('.title_product').html(data.prodName);
 		$('#description').html(data.prodDesc);
 		$('#full-description').html(data.prodFullDetail);
+		$('#product-image').html(data.image);
+		
+		//alert(data.mainImage);
 	}
 	);	
 }
