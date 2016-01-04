@@ -5706,3 +5706,18 @@ body:not(.wp-admin) .Axiom_message {width: 190px;}
 	-webkit-transform: scaleX(1.1);
 	transform: scaleX(1.1);
 }
+/* list service */
+.list_service {float:left; width: 30%; border: dashed; padding-top: 20px;}
+.list_service_content{float:right; width: 67% ; border: double; padding-left: 20px; padding-top: 20px; }
+.product .title_product{font-size: 24px; font-weight: bold;}
+.threed-letter{ display: block;}
+textarea.letter {
+	width: 70%;
+	height: 5%;
+	border: none;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 26px;
+	background-color: #FFFFFF; 
+
+}

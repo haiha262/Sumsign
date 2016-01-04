@@ -82,7 +82,7 @@ jQuery(document).ready(function() {
 	arc_skills_legend_color();
 	slider_range();
 	woo_review_star();
-	
+	service_show();
 });
 
 //preloader
@@ -474,6 +474,7 @@ function main_slider_init(){
 function popup_block_init() {
     "use strict";
 	if (jQuery("body.usermenu_show").length > 0) {
+										  
 		var user_popup  ='<div id="user-popUp" class="user-popUp mfp-with-anim mfp-hide">';
 		user_popup  +=	'<div class="sc_tabs">';
 		user_popup  +=		'<ul class="loginHeadTab">';
@@ -505,19 +506,19 @@ function popup_block_init() {
 		user_popup  +=						'</li>';
 		user_popup  +=					'</ul>';
 		user_popup  +=				'</div>'//div for left;
-		user_popup  +=				'<div class="itemformRight">';
-		user_popup  +=					'<ul class="formList">';
-		user_popup  +=						'<li>You can login using your social profile</li>';
-		user_popup  +=						'<li class="loginSoc">';
-		user_popup  +=							'<a href="#" class="iconLogin fb"></a>';
-		user_popup  +=							'<a href="#" class="iconLogin tw"></a>';
-		user_popup  +=							'<a href="#" class="iconLogin gg"></a>';
-		user_popup  +=						'</li>';
-		user_popup  +=						'<li>';
-		user_popup  +=							'<a href="#" class="loginProblem">Problem with login?</a>';
-		user_popup  +=						'</li>';
-		user_popup  +=					'</ul>';
-		user_popup  +=				'</div>'//div for right;
+		//user_popup  +=				'<div class="itemformRight">';
+		//user_popup  +=					'<ul class="formList">';
+		//user_popup  +=						'<li>You can login using your social profile</li>';
+		//user_popup  +=						'<li class="loginSoc">';
+		//user_popup  +=							'<a href="#" class="iconLogin fb"></a>';
+		//user_popup  +=							'<a href="#" class="iconLogin tw"></a>';
+		//user_popup  +=							'<a href="#" class="iconLogin gg"></a>';
+		//user_popup  +=						'</li>';
+		//user_popup  +=						'<li>';
+		//user_popup  +=							'<a href="#" class="loginProblem">Problem with login?</a>';
+		//user_popup  +=						'</li>';
+		//user_popup  +=					'</ul>';
+		//user_popup  +=				'</div>'//div for right;
 		user_popup  +=				'<div class= "messageBlock">';
 		user_popup  +=			'</form>';
 		user_popup  +=			'</div>';
@@ -584,6 +585,8 @@ function popup_block_init() {
 						alert( Axiom_LOGIN_SUCCESS);
 						form.find(":input").each(function() {
 							jQuery(this).val("");
+							jQuery('.mfp-bg.mfp-zoom-in.mfp-ready').remove();
+							jQuery('#user-popUp').remove();
 						});
 					}
 					else
@@ -694,4 +697,143 @@ function woo_review_star() {
             return false;
         });
     }
+}
+
+function service_show() {
+	
+	//3dletter init
+		jQuery(".product").hide();//ALL TAB HIDE
+		jQuery("#with-illuminated").hide();
+		if(jQuery("#illuminated").prop('checked') == true){
+			jQuery(".with-illuminated").show();
+			jQuery(".with-no-illuminated").hide();
+		}
+		else
+		{
+			jQuery(".with-illuminated").hide();
+			jQuery(".with-no-illuminated").show();
+		}
+		jQuery("#acrylic-spec").hide();
+	//=====
+	jQuery("#threed-letter-img").click(function(){
+		jQuery(".product").hide();
+		jQuery(".threed-letter").show();
+		
+		//init
+		
+		//start up
+		
+		jQuery("#with-illuminated").hide();
+		if(jQuery("#illuminated").prop('checked') == true){
+			jQuery(".with-illuminated").show();
+			jQuery(".with-no-illuminated").hide();
+		}
+		else
+		{
+			jQuery(".with-illuminated").hide();
+			jQuery(".with-no-illuminated").show();
+		}
+		jQuery("#acrylic-spec").hide();
+	});
+	
+	jQuery("#lightbox-img").click(function(){
+		jQuery(".product").hide();
+		jQuery(".lightbox").show();
+		
+		//init
+		jQuery("input[name=side]").filter('[value="double"]').prop('checked', true);
+	});
+	jQuery("#shop-front-img").click(function(){
+		jQuery(".product").hide();
+		jQuery(".shop-front").show();
+		});
+	jQuery("#vehicle-sign-img").click(function(){
+		jQuery(".product").hide();
+		jQuery(".vehicle-sign").show();
+		});
+	
+	//Letter 3D
+	jQuery("#illuminated").change(function() {
+		if(jQuery("#illuminated").prop('checked') == true){
+			jQuery(".with-illuminated").show();
+			jQuery(".with-no-illuminated").hide();
+		}
+		else
+		{
+			jQuery(".with-illuminated").hide();
+			jQuery(".with-no-illuminated").show();
+		}
+
+	});
+	jQuery("select[name=material]").change(function()
+	{
+		var sel = jQuery("select[name=material]").val();
+		if (sel.indexOf('Gold')>-1 || sel.indexOf('Silver') >-1) {//exist
+			jQuery("#acrylic-spec").show();
+			jQuery("#non-acrylic-spec").hide();
+			
+		}else
+		{
+			jQuery("#non-acrylic-spec").show();
+			jQuery("#acrylic-spec").hide();
+		}
+	 });
+	jQuery("#fs").change(function() {
+		//alert($(this).val());
+		jQuery('.letter').css("font-family", jQuery(this).val());
+		jQuery('.letter').css("text-transform","uppercase");
+
+	});
+	jQuery("input.other-input[type=text]").focus(function() {
+		 jQuery('input.sizeHeight[type="radio"]').each(function(){
+			jQuery(this).prop('checked', false);
+		 });
+		//jQuery('.letter-example').css("font-family", jQuery(this).val());
+		//jQuery('.letter-example').css("text-transform","uppercase");
+
+	});
+	jQuery("#letterAdd").click(function(){
+		var letter_height = 100;
+		if (jQuery("input.sizeHeight").is(':checked')) {
+			letter_height = jQuery("input.sizeHeight:checked").val();
+		}
+		else
+		{
+			letter_height = jQuery("input[name=custom_size]").val();
+		}
+		var request =
+		{
+			letter : jQuery(".letter").val(),
+			illuminated : jQuery("#illuminated").prop('checked'),
+			letter_font : jQuery("#fs").val(),
+			letter_deep: jQuery("input[name=deep]:checked").val(),
+			letter_height : letter_height,
+			letter_qty : jQuery("input[name=custom_qty]").val(),
+			letter_sendMethod : jQuery("input[name=sendProduct]:checked").val()
+			
+		}
+		jQuery.post("cart.php",request,function(data,status)
+		{
+			if (status=="success") {
+
+               alert(data);
+  
+            }
+		});
+	});
+	
+	//LightBox
+	
+	jQuery("input[name=side]").change(function(){
+		var value =jQuery("input[name=side]:checked").val();
+		jQuery("#dimension-double").show();		
+		if (value == 'single') {
+			jQuery("#dimension-double").hide();			
+		}
+		
+			
+		
+	
+	});
+	
 }

@@ -92,7 +92,7 @@
 																	</div>
 																</div>
 																<div class="sc_button sc_button_style_mono sc_button_size_medium registered squareButton mono medium">
-																	<a href="#user-popUp" class=" user-popup-link">Register Now</a>
+																	<a href="#user-popUp" class=" user-popup-link">Register / Login</a>
 																</div>
 															</div>
 															<!--<div class="columns1_2 sc_column_item sc_column_item_2 even">
@@ -118,7 +118,7 @@
 													<div class="sc_section sc_aligncenter">
 														<div class="columnsWrap sc_columns sc_columns_count_3 margin_bottom_big" data-animation="animated fadeInUp">
 															<div class="columns1_3 sc_column_item sc_column_item_1 odd first">
-																<a href="features_pages_service.php?serviceId=1">
+																<a href="features_sign_service.php">
 																	<div class="sc_section">
 																		<div class="sc_title_icon_animated">
 																			<div class="sc_title_icon sc_title_top sc_size_medium icon-smashing sc_title_bg sc_bg_animated">
